@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000057",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0004.wav",
+  "original_transcription": "propague para que nós não possamos aí mais uma vez ter a nossa competência vilipendiada, seja pelo Poder Executivo, seja pelo Poder Legislativo.",
+  "attack_type": "ANTONYM",
+  "original_words": "vilipendiada,",
+  "replacement_text": "reconhecida",
+  "reason": "Substitui por antônimo, mudando de desprezo/desrespeito para reconhecimento positivo da competência",
+  "start_time": 5.279,
+  "end_time": 6.3229999999999995,
+  "mask_start_token": 131,
+  "mask_end_token": 158,
+  "n_tokens_replaced": 27,
+  "method": "native_infilling_hybrid"
+}

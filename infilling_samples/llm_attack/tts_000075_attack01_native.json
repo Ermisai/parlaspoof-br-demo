@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000075",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0033.wav",
+  "original_transcription": "dar esse prazo aos defensores públicos em razão da doença, de doença, para que possa assistir as pessoas mais pobres, as pessoas menos favorecidas no Brasil. A observação que eu tinha que fazer, muito obrigado pela...",
+  "attack_type": "ANTONYM",
+  "original_words": "assistir as pessoas mais pobres,",
+  "replacement_text": "prejudicar as pessoas mais pobres",
+  "reason": "Inverte completamente o propósito da defesa pública, criando uma declaração politicamente danosa",
+  "start_time": 6.971,
+  "end_time": 9.093,
+  "mask_start_token": 174,
+  "mask_end_token": 227,
+  "n_tokens_replaced": 53,
+  "method": "native_infilling_hybrid"
+}

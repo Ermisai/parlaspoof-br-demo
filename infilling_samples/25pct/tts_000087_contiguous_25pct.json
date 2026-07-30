@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000087",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567940_012_Delegado_Paulo_Bilynskyj_seg0053.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Essa é outra exigência que faz com que pessoas que possuem, que fizeram um grande investimento, possuem diversos calibres de armas de fogo diferentes, tenham que realizar inúmeras competições durante o ano simplesmente para manter os seus armamentos.",
+  "total_words": 38,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        8,
+        16
+      ],
+      "original_words": "pessoas que possuem, que fizeram um grande investimento, possuem",
+      "replacement_text": "pessoas que possuem, que fizeram um grande investimento, possuem",
+      "start_time": 2.9890000000000003,
+      "end_time": 6.9799999999999995,
+      "mask_start_token": 74,
+      "mask_end_token": 174,
+      "n_tokens_replaced": 100
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

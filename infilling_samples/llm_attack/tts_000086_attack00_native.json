@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000086",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567830_054_Delegado_Paulo_Bilynskyj_seg0000.wav",
+  "original_transcription": "Então, vou aproveitar pra dar uma lição aí pro pessoal que tem dúvida sobre o que que significa uma indicação pra PGR, tá?",
+  "attack_type": "NEGATION",
+  "original_words": "que tem dúvida",
+  "replacement_text": "que não tem dúvida",
+  "reason": "Inverte o público-alvo, sugerindo arrogância ao explicar para quem já sabe",
+  "start_time": 1.907,
+  "end_time": 2.528,
+  "mask_start_token": 47,
+  "mask_end_token": 63,
+  "n_tokens_replaced": 16,
+  "method": "native_infilling_hybrid"
+}

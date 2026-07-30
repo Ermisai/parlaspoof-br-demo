@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000052",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567135_242_Abilio_Brunini_seg0036.wav",
+  "original_transcription": "para lotar o leito de UTI, passar os dados de que os leitos de UTI durante o período da pandemia estavam lotados, hiperflacionar.",
+  "attack_type": "NEGATION",
+  "original_words": "estavam lotados,",
+  "replacement_text": "não estavam lotados",
+  "reason": "Nega a situação crítica dos hospitais durante a pandemia",
+  "start_time": 7.432,
+  "end_time": 8.777000000000001,
+  "mask_start_token": 185,
+  "mask_end_token": 219,
+  "n_tokens_replaced": 34,
+  "method": "native_infilling_hybrid"
+}

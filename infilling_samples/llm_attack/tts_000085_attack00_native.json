@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000085",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567139_010_Benedita_da_Silva_seg0042.wav",
+  "original_transcription": "orçamento, entre outros tantos, e a cultura, que não posso deixar, de temas em que ainda precisamos construir um contexto de igualdade.",
+  "attack_type": "ANTONYM",
+  "original_words": "construir",
+  "replacement_text": "destruir",
+  "reason": "Inverte completamente a intenção construtiva para destrutiva em relação à igualdade",
+  "start_time": 9.312,
+  "end_time": 10.094000000000001,
+  "mask_start_token": 232,
+  "mask_end_token": 252,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000033",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567183_119_Adriana_Ventura_seg0015.wav",
+  "original_transcription": "falando que havia sido uma nota técnica no Ministério da Saúde, onde passava, trata de um assunto super espinhoso, que é o assunto do aborto. Eu defendo a vida, eu sou contra o aborto.",
+  "attack_type": "NEGATION",
+  "original_words": "Eu defendo a vida,",
+  "replacement_text": "Eu não defendo a vida",
+  "reason": "Adiciona negação que contradiz a posição pró-vida",
+  "start_time": 12.277999999999999,
+  "end_time": 13.4,
+  "mask_start_token": 306,
+  "mask_end_token": 335,
+  "n_tokens_replaced": 29,
+  "method": "native_infilling_hybrid"
+}

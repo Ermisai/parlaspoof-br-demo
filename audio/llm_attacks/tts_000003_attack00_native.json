@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000003",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0042.wav",
+  "original_transcription": "A todos eles. Nesse sentido, venho solicitar ao governo federal que sejam implementadas medidas emergenciais em relação aos financiamentos agrícolas.",
+  "attack_type": "PHRASE",
+  "original_words": "medidas emergenciais",
+  "replacement_text": "cortes imediatos",
+  "reason": "Transforma pedido de ajuda em pedido de redução de recursos",
+  "start_time": 6.898000000000001,
+  "end_time": 8.782,
+  "mask_start_token": 172,
+  "mask_end_token": 219,
+  "n_tokens_replaced": 47,
+  "method": "native_infilling_hybrid"
+}

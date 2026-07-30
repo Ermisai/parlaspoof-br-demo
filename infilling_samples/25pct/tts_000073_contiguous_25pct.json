@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000073",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0029.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "para que, eventualmente, a Defensoria Pública pode substituir aquele defensor público num prazo razoável para que ele possa patrocinar a causa das pessoas menos favorecidas.",
+  "total_words": 25,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        13,
+        18
+      ],
+      "original_words": "razoável para que ele possa patrocinar",
+      "replacement_text": "razoável para que ele possa patrocinar",
+      "start_time": 6.402,
+      "end_time": 8.809000000000001,
+      "mask_start_token": 160,
+      "mask_end_token": 220,
+      "n_tokens_replaced": 60
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

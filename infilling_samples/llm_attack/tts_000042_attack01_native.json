@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000042",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_131_Bibo_Nunes_seg0057.wav",
+  "original_transcription": "Nenhum. Mas estão lançando agora o crime hipotético. Tem a hipótese de cometer um crime e querem punir. Não vamos permitir hipótese alguma. Liberdade de expressão, cinco. Sim, sempre. Viva a liberdade.",
+  "attack_type": "NEGATION",
+  "original_words": "Não vamos permitir",
+  "replacement_text": "Vamos permitir",
+  "reason": "Inverte completamente a posição política sobre permitir hipóteses de crime",
+  "start_time": 7.631,
+  "end_time": 8.993,
+  "mask_start_token": 190,
+  "mask_end_token": 224,
+  "n_tokens_replaced": 34,
+  "method": "native_infilling_hybrid"
+}

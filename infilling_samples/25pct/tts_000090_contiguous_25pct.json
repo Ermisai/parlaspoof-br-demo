@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000090",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567990_026_Delegado_Paulo_Bilynskyj_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Não, eles fazem um acordo com o governo. O governo coloca na conta do motorista desconto, contribuição previdenciária, obrigação e...",
+  "total_words": 20,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        6,
+        10
+      ],
+      "original_words": "o governo. O governo coloca",
+      "replacement_text": "o governo. O governo coloca",
+      "start_time": 3.29,
+      "end_time": 5.516,
+      "mask_start_token": 82,
+      "mask_end_token": 137,
+      "n_tokens_replaced": 55
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

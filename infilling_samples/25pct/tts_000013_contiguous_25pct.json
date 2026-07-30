@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000013",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0009.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Além disso, seria importante criar um órgão, uma rede nacional que coordenasse e integrasse as film commissions existentes no Brasil, promovendo a cooperação, a capacitação, a divulgação e a articulação com os demais agências do setor audiovisual.",
+  "total_words": 37,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        15,
+        23
+      ],
+      "original_words": "film commissions existentes no Brasil, promovendo a cooperação, a",
+      "replacement_text": "film commissions existentes no Brasil, promovendo a cooperação, a",
+      "start_time": 4.412,
+      "end_time": 7.801,
+      "mask_start_token": 110,
+      "mask_end_token": 195,
+      "n_tokens_replaced": 85
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

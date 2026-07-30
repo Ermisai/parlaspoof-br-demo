@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000047",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567252_039_Caroline_de_Toni_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "na Constituição Federal, a quem devemos toda a nossa devoção e respeito, e no regimento interno da Câmara dos Deputados. Por isso, não teremos surpresas nem inovações. Temos esse espírito conservador de poder cumprir essas leis, essas normas.",
+  "total_words": 38,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        17,
+        25
+      ],
+      "original_words": "Câmara dos Deputados. Por isso, não teremos surpresas nem",
+      "replacement_text": "Câmara dos Deputados. Por isso, não teremos surpresas nem",
+      "start_time": 6.4270000000000005,
+      "end_time": 9.069,
+      "mask_start_token": 160,
+      "mask_end_token": 226,
+      "n_tokens_replaced": 66
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

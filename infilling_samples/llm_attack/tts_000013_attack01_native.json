@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000013",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0009.wav",
+  "original_transcription": "Além disso, seria importante criar um órgão, uma rede nacional que coordenasse e integrasse as film commissions existentes no Brasil, promovendo a cooperação, a capacitação, a divulgação e a articulação com os demais agências do setor audiovisual.",
+  "attack_type": "ANTONYM",
+  "original_words": "importante criar",
+  "replacement_text": "desnecessário eliminar",
+  "reason": "Inverte completamente a proposta de criação para eliminação do órgão",
+  "start_time": 1.024,
+  "end_time": 1.725,
+  "mask_start_token": 25,
+  "mask_end_token": 43,
+  "n_tokens_replaced": 18,
+  "method": "native_infilling_hybrid"
+}

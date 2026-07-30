@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000018",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_060_Erika_Kokay_seg0008.wav",
+  "original_transcription": "o reposicionamento da empresa no mercado, a formação de capital inicial ou de giro e a própria manutenção de suas condições de sobrevivência nos primeiros meses de constituição da nova sociedade.",
+  "attack_type": "ANTONYM",
+  "original_words": "formação",
+  "replacement_text": "destruição",
+  "reason": "Inverte completamente o sentido de criação para eliminação de capital",
+  "start_time": 4.591,
+  "end_time": 5.133,
+  "mask_start_token": 114,
+  "mask_end_token": 128,
+  "n_tokens_replaced": 14,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000045",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_332_Bibo_Nunes_seg0000.wav",
+  "original_transcription": "do turismo, porque sempre numa eleição municipal, estadual ou nacional, o que menos se dá importância é para o turismo. Eu uso esse momento aqui para chamar a atenção da importância do turismo.",
+  "attack_type": "ANTONYM",
+  "original_words": "menos se dá importância",
+  "replacement_text": "mais se dá importância",
+  "reason": "Inverte completamente a crítica, sugerindo que o turismo já recebe atenção adequada",
+  "start_time": 7.303,
+  "end_time": 8.567,
+  "mask_start_token": 182,
+  "mask_end_token": 214,
+  "n_tokens_replaced": 32,
+  "method": "native_infilling_hybrid"
+}

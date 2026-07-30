@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000038",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567951_124_Delegado_Paulo_Bilynskyj_seg0005.wav",
+  "original_transcription": "Também não podemos esquecer a caça de espécies exóticas invasoras que sejam nocivas à fauna regional e também ao desenvolvimento sustentável e econômico de nossa agricultura e pecuária.",
+  "attack_type": "ANTONYM",
+  "original_words": "caça",
+  "replacement_text": "proteção",
+  "reason": "Muda de controle/eliminação para conservação das espécies invasoras",
+  "start_time": 1.425,
+  "end_time": 1.8860000000000001,
+  "mask_start_token": 35,
+  "mask_end_token": 47,
+  "n_tokens_replaced": 12,
+  "method": "native_infilling_hybrid"
+}

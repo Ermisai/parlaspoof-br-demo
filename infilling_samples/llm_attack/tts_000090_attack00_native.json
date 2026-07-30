@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000090",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567990_026_Delegado_Paulo_Bilynskyj_seg0005.wav",
+  "original_transcription": "Não, eles fazem um acordo com o governo. O governo coloca na conta do motorista desconto, contribuição previdenciária, obrigação e...",
+  "attack_type": "ANTONYM",
+  "original_words": "desconto,",
+  "replacement_text": "aumento",
+  "reason": "Transforma benefício em ônus para o motorista, mudando drasticamente o impacto da política",
+  "start_time": 8.302999999999999,
+  "end_time": 9.346,
+  "mask_start_token": 207,
+  "mask_end_token": 233,
+  "n_tokens_replaced": 26,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000033",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567183_119_Adriana_Ventura_seg0015.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "falando que havia sido uma nota técnica no Ministério da Saúde, onde passava, trata de um assunto super espinhoso, que é o assunto do aborto. Eu defendo a vida, eu sou contra o aborto.",
+  "total_words": 34,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        10,
+        17
+      ],
+      "original_words": "Saúde, onde passava, trata de um assunto super",
+      "replacement_text": "Saúde, onde passava, trata de um assunto super",
+      "start_time": 5.1080000000000005,
+      "end_time": 9.414000000000001,
+      "mask_start_token": 127,
+      "mask_end_token": 235,
+      "n_tokens_replaced": 108
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

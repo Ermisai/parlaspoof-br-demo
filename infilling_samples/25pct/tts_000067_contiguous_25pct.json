@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000067",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_043_Erika_Kokay_seg0003.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "fazer essa discussão e que nós acrescentemos representantes do Conselho Curador, tanto dos empregadores quanto dos empregados. Essa não é uma discussão apenas do sistema financeiro. Ela tem que ter trabalhadores e trabalhadoras. É isso, presidente.",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        11,
+        19
+      ],
+      "original_words": "tanto dos empregadores quanto dos empregados. Essa não é",
+      "replacement_text": "tanto dos empregadores quanto dos empregados. Essa não é",
+      "start_time": 4.327,
+      "end_time": 7.3709999999999996,
+      "mask_start_token": 108,
+      "mask_end_token": 184,
+      "n_tokens_replaced": 76
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

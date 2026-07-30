@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000014",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0018.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "o secretário de Turismo de Fortaleza, Alexandre Pereira, Leonardo Edler, sócio-fundador da Urca Filmes, Joana Lima Verde, diretora do Fórum Audiovisual Cearacine e conselheira suplente no Audiovisual no Conselho de Políticas Públicas Cultural.",
+  "total_words": 33,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        10,
+        17
+      ],
+      "original_words": "sócio-fundador da Urca Filmes, Joana Lima Verde, diretora",
+      "replacement_text": "sócio-fundador da Urca Filmes, Joana Lima Verde, diretora",
+      "start_time": 4.062,
+      "end_time": 7.664,
+      "mask_start_token": 101,
+      "mask_end_token": 191,
+      "n_tokens_replaced": 90
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

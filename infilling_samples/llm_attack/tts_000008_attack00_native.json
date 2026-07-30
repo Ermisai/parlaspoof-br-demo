@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000008",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0005.wav",
+  "original_transcription": "Mas quero aqui também dizer aos colegas, como Mato Grossense aqui, alguns colegas Mato Grossense no plenário,",
+  "attack_type": "NAME",
+  "original_words": "Mato Grossense",
+  "replacement_text": "Paulista",
+  "reason": "Altera a origem geográfica declarada, mudando contexto regional",
+  "start_time": 2.95,
+  "end_time": 3.973,
+  "mask_start_token": 73,
+  "mask_end_token": 99,
+  "n_tokens_replaced": 26,
+  "method": "native_infilling_hybrid"
+}

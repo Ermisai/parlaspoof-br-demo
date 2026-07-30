@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000054",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567236_110_Abilio_Brunini_seg0034.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "que toda essa arbitrariedade e esses atos abusivos, feitos por decretos, feitos por medidas provisórias, podem ser combatidos pelos prefeitos, se assim eles quiserem.",
+  "total_words": 24,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        13,
+        18
+      ],
+      "original_words": "medidas provisórias, podem ser combatidos pelos",
+      "replacement_text": "medidas provisórias, podem ser combatidos pelos",
+      "start_time": 6.702,
+      "end_time": 9.992,
+      "mask_start_token": 167,
+      "mask_end_token": 249,
+      "n_tokens_replaced": 82
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

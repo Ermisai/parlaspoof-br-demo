@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000028",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0004.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "e a equipe da Secretaria de Ser Povos, nesse momento, ano de funcionamento da nossa comissão, com debates, encaminhamentos e assertivo.",
+  "total_words": 21,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        2,
+        6
+      ],
+      "original_words": "equipe da Secretaria de Ser",
+      "replacement_text": "equipe da Secretaria de Ser",
+      "start_time": 0.242,
+      "end_time": 1.926,
+      "mask_start_token": 6,
+      "mask_end_token": 48,
+      "n_tokens_replaced": 42
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

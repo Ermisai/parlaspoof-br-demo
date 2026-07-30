@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000003",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0042.wav",
+  "original_transcription": "A todos eles. Nesse sentido, venho solicitar ao governo federal que sejam implementadas medidas emergenciais em relação aos financiamentos agrícolas.",
+  "attack_type": "ANTONYM",
+  "original_words": "implementadas",
+  "replacement_text": "suspensas",
+  "reason": "Inverte completamente a solicitação de ação para inação",
+  "start_time": 5.474,
+  "end_time": 6.5569999999999995,
+  "mask_start_token": 136,
+  "mask_end_token": 163,
+  "n_tokens_replaced": 27,
+  "method": "native_infilling_hybrid"
+}

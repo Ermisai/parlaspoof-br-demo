@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000006",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0002.wav",
+  "original_transcription": "deste ano de 2024 e uma sessão que nós temos aí um clima tenso, infelizmente, principalmente entre o Legislativo e o Executivo.",
+  "attack_type": "NEGATION",
+  "original_words": "temos aí um clima tenso,",
+  "replacement_text": "não temos um clima tenso",
+  "reason": "A negação muda o sentido de admitir tensão para negar sua existência",
+  "start_time": 3.7110000000000003,
+  "end_time": 5.436,
+  "mask_start_token": 92,
+  "mask_end_token": 135,
+  "n_tokens_replaced": 43,
+  "method": "native_infilling_hybrid"
+}

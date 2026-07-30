@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000022",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0027.wav",
+  "original_transcription": "E há casos no Brasil, principalmente na região norte, aí eu cito o exemplo do Amazonas, do Pará, de Roraima, dos estados da região norte, do Amapá, onde há casos",
+  "attack_type": "NAME",
+  "original_words": "região norte,",
+  "replacement_text": "região sul",
+  "reason": "Muda completamente a localização geográfica dos problemas mencionados",
+  "start_time": 2.371,
+  "end_time": 3.194,
+  "mask_start_token": 59,
+  "mask_end_token": 79,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

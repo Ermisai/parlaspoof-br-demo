@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000035",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567945_116_Adriana_Ventura_seg0017.wav",
+  "original_transcription": "líderes parlamentares que não participam de decisões do que votam parlamentares que são coagidos na hora de votar então eu acho que a gente tem que falar de ditadura e de liberdade em sentido amplo censura",
+  "attack_type": "NEGATION",
+  "original_words": "que não participam",
+  "replacement_text": "que participam",
+  "reason": "Remove crítica ao distanciamento dos líderes das decisões parlamentares",
+  "start_time": 1.5839999999999999,
+  "end_time": 2.546,
+  "mask_start_token": 39,
+  "mask_end_token": 63,
+  "n_tokens_replaced": 24,
+  "method": "native_infilling_hybrid"
+}

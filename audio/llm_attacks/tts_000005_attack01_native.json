@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000005",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567493_029_Beto_Pereira_seg0025.wav",
+  "original_transcription": "Em contrapartida, um preço decente para o consumidor, um preço justo para o consumidor. Portanto, é de extrema importância e relevância os debates que serão promovidos nesta comissão.",
+  "attack_type": "ANTONYM",
+  "original_words": "decente",
+  "replacement_text": "abusivo",
+  "reason": "Inverte completamente a posição sobre preços justos para consumidores",
+  "start_time": 2.9480000000000004,
+  "end_time": 3.8299999999999996,
+  "mask_start_token": 73,
+  "mask_end_token": 95,
+  "n_tokens_replaced": 22,
+  "method": "native_infilling_hybrid"
+}

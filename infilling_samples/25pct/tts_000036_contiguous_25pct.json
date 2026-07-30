@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000036",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567830_054_Delegado_Paulo_Bilynskyj_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Então, vou aproveitar pra dar uma lição aí pro pessoal que tem dúvida sobre o que que significa uma indicação pra PGR, tá?",
+  "total_words": 23,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        15,
+        19
+      ],
+      "original_words": "que que significa uma indicação",
+      "replacement_text": "que que significa uma indicação",
+      "start_time": 2.809,
+      "end_time": 3.952,
+      "mask_start_token": 70,
+      "mask_end_token": 98,
+      "n_tokens_replaced": 28
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

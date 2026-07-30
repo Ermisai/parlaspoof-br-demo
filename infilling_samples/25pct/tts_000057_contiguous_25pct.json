@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000057",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0004.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "propague para que nós não possamos aí mais uma vez ter a nossa competência vilipendiada, seja pelo Poder Executivo, seja pelo Poder Legislativo.",
+  "total_words": 23,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        8,
+        12
+      ],
+      "original_words": "uma vez ter a nossa",
+      "replacement_text": "uma vez ter a nossa",
+      "start_time": 2.7910000000000004,
+      "end_time": 4.4559999999999995,
+      "mask_start_token": 69,
+      "mask_end_token": 111,
+      "n_tokens_replaced": 42
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

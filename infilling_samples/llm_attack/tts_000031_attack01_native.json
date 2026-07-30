@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000031",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567135_238_Adriana_Ventura_seg0010.wav",
+  "original_transcription": "Ele aprimorou o projeto, colocou outros procedimentos, mas o objetivo é claro, é dar transparência para aquelas pessoas que aguardam uma cirurgia letiva, saibam qual é o tamanho da fila.",
+  "attack_type": "ANTONYM",
+  "original_words": "aprimorou",
+  "replacement_text": "prejudicou",
+  "reason": "Inverte completamente a avaliação positiva do trabalho realizado",
+  "start_time": 0.9029999999999999,
+  "end_time": 1.946,
+  "mask_start_token": 22,
+  "mask_end_token": 48,
+  "n_tokens_replaced": 26,
+  "method": "native_infilling_hybrid"
+}

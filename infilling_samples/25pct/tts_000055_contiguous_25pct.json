@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000055",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567337_096_Abilio_Brunini_seg0006.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "A gente tem conversado o quanto é importante o posicionamento dele e esse posicionamento respeitando todas as opiniões. Ao contrário do que muitos dizem, eu acredito que a sua postura à frente vai surpreender muita gente.",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        16,
+        24
+      ],
+      "original_words": "as opiniões. Ao contrário do que muitos dizem, eu",
+      "replacement_text": "as opiniões. Ao contrário do que muitos dizem, eu",
+      "start_time": 5.912,
+      "end_time": 8.756,
+      "mask_start_token": 147,
+      "mask_end_token": 218,
+      "n_tokens_replaced": 71
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

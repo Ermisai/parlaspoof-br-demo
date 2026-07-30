@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000073",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0029.wav",
+  "original_transcription": "para que, eventualmente, a Defensoria Pública pode substituir aquele defensor público num prazo razoável para que ele possa patrocinar a causa das pessoas menos favorecidas.",
+  "attack_type": "NEGATION",
+  "original_words": "pode substituir",
+  "replacement_text": "não pode substituir",
+  "reason": "Inverte completamente a capacidade da Defensoria de trocar defensores, criando impedimento institucional",
+  "start_time": 2.81,
+  "end_time": 4.074,
+  "mask_start_token": 70,
+  "mask_end_token": 101,
+  "n_tokens_replaced": 31,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000040",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567990_026_Delegado_Paulo_Bilynskyj_seg0005.wav",
+  "original_transcription": "Não, eles fazem um acordo com o governo. O governo coloca na conta do motorista desconto, contribuição previdenciária, obrigação e...",
+  "attack_type": "ANTONYM",
+  "original_words": "acordo",
+  "replacement_text": "confronto",
+  "reason": "Transforma colaboração em conflito político",
+  "start_time": 2.548,
+  "end_time": 3.2289999999999996,
+  "mask_start_token": 63,
+  "mask_end_token": 80,
+  "n_tokens_replaced": 17,
+  "method": "native_infilling_hybrid"
+}

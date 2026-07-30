@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000002",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0033.wav",
+  "original_transcription": "E se estamos diante de uma crise financeira e de produtividade no campo, diretamente também podemos antever no horizonte uma crise econômica no Estado com reflexo nacional.",
+  "attack_type": "ANTONYM",
+  "original_words": "crise econômica",
+  "replacement_text": "prosperidade econômica",
+  "reason": "Transforma previsão negativa em cenário positivo, mudando completamente a mensagem",
+  "start_time": 10.216,
+  "end_time": 11.32,
+  "mask_start_token": 255,
+  "mask_end_token": 283,
+  "n_tokens_replaced": 28,
+  "method": "native_infilling_hybrid"
+}

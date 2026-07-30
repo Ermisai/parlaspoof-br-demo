@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000050",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567466_005_Caroline_de_Toni_seg0006.wav",
+  "original_transcription": "Não, ele estava na pauta da semana passada, foi feita uma obstrução, eu retirei de pauta, fazer um gesto para parar a obstrução, e o deputado Kim fez um pedido extra-pauta, por isso que a gente está analisando como primeiro item. Perfeito, está entendido. Muito obrigado, presidente.",
+  "attack_type": "ANTONYM",
+  "original_words": "retirei de pauta,",
+  "replacement_text": "mantive na pauta",
+  "reason": "Inverte a ação tomada pelo presidente, sugerindo que não houve retirada",
+  "start_time": 4.065,
+  "end_time": 5.686999999999999,
+  "mask_start_token": 101,
+  "mask_end_token": 142,
+  "n_tokens_replaced": 41,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000032",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567144_086_Adriana_Ventura_seg0011.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "É a barbárie e assusta ver o presidente da república passando a mão em terrorista, passando mão em entidade, financiando entidade com o nosso dinheiro, com os nossos impostos, financiando isso.",
+  "total_words": 31,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        8,
+        14
+      ],
+      "original_words": "da república passando a mão em terrorista,",
+      "replacement_text": "da república passando a mão em terrorista,",
+      "start_time": 3.5620000000000003,
+      "end_time": 6.263,
+      "mask_start_token": 89,
+      "mask_end_token": 156,
+      "n_tokens_replaced": 67
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

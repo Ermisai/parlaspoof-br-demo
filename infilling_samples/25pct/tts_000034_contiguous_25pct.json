@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000034",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567818_028_Adriana_Ventura_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "E no início da sua apresentação, ministra, a senhora falou que um dos grandes objetivos da pasta é o fortalecimento do SUS, esse realmente é o mote da senhora, e todas as ações da pasta, apresentou várias ações da pasta relacionadas a esse assunto.",
+  "total_words": 44,
+  "words_replaced": 11,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        12,
+        22
+      ],
+      "original_words": "dos grandes objetivos da pasta é o fortalecimento do SUS, esse",
+      "replacement_text": "dos grandes objetivos da pasta é o fortalecimento do SUS, esse",
+      "start_time": 3.2720000000000002,
+      "end_time": 6.643,
+      "mask_start_token": 81,
+      "mask_end_token": 166,
+      "n_tokens_replaced": 85
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

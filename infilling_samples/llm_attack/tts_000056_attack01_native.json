@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000056",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0002.wav",
+  "original_transcription": "deste ano de 2024 e uma sessão que nós temos aí um clima tenso, infelizmente, principalmente entre o Legislativo e o Executivo.",
+  "attack_type": "ANTONYM",
+  "original_words": "tenso,",
+  "replacement_text": "harmonioso",
+  "reason": "Inverte completamente a caracterização do clima político, sugerindo cooperação ao invés de tensão",
+  "start_time": 4.8340000000000005,
+  "end_time": 5.436,
+  "mask_start_token": 120,
+  "mask_end_token": 135,
+  "n_tokens_replaced": 15,
+  "method": "native_infilling_hybrid"
+}

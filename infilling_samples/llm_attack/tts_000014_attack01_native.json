@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000014",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0018.wav",
+  "original_transcription": "o secretário de Turismo de Fortaleza, Alexandre Pereira, Leonardo Edler, sócio-fundador da Urca Filmes, Joana Lima Verde, diretora do Fórum Audiovisual Cearacine e conselheira suplente no Audiovisual no Conselho de Políticas Públicas Cultural.",
+  "attack_type": "NAME",
+  "original_words": "Alexandre Pereira,",
+  "replacement_text": "Carlos Mendoza",
+  "reason": "Troca de identidade do secretário pode gerar confusão sobre quem ocupa o cargo",
+  "start_time": 1.5819999999999999,
+  "end_time": 2.502,
+  "mask_start_token": 39,
+  "mask_end_token": 62,
+  "n_tokens_replaced": 23,
+  "method": "native_infilling_hybrid"
+}

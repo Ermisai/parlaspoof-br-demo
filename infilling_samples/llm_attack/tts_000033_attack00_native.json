@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000033",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567183_119_Adriana_Ventura_seg0015.wav",
+  "original_transcription": "falando que havia sido uma nota técnica no Ministério da Saúde, onde passava, trata de um assunto super espinhoso, que é o assunto do aborto. Eu defendo a vida, eu sou contra o aborto.",
+  "attack_type": "ANTONYM",
+  "original_words": "contra",
+  "replacement_text": "a favor do",
+  "reason": "Inverte completamente a posição política sobre aborto",
+  "start_time": 13.841,
+  "end_time": 14.141,
+  "mask_start_token": 346,
+  "mask_end_token": 353,
+  "n_tokens_replaced": 7,
+  "method": "native_infilling_hybrid"
+}

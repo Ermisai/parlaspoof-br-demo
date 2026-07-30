@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000012",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0008.wav",
+  "original_transcription": "além de estabelecer critérios, fixar competências e responsabilidades das film commissions em nível federal, estadual e municipal, bem como elencar benefícios e fixar obrigações dos produtores que utilizam seus serviços.",
+  "attack_type": "ANTONYM",
+  "original_words": "elencar benefícios",
+  "replacement_text": "restringir benefícios",
+  "reason": "Transforma política de incentivo em política restritiva",
+  "start_time": 8.061,
+  "end_time": 9.163,
+  "mask_start_token": 201,
+  "mask_end_token": 229,
+  "n_tokens_replaced": 28,
+  "method": "native_infilling_hybrid"
+}

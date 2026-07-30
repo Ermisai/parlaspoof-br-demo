@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000034",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567818_028_Adriana_Ventura_seg0005.wav",
+  "original_transcription": "E no início da sua apresentação, ministra, a senhora falou que um dos grandes objetivos da pasta é o fortalecimento do SUS, esse realmente é o mote da senhora, e todas as ações da pasta, apresentou várias ações da pasta relacionadas a esse assunto.",
+  "attack_type": "NEGATION",
+  "original_words": "esse realmente é o mote",
+  "replacement_text": "esse não é realmente o mote",
+  "reason": "Nega o compromisso declarado da ministra com o SUS",
+  "start_time": 6.3420000000000005,
+  "end_time": 7.7669999999999995,
+  "mask_start_token": 158,
+  "mask_end_token": 194,
+  "n_tokens_replaced": 36,
+  "method": "native_infilling_hybrid"
+}

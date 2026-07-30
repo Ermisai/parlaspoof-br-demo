@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000015",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567645_174_AndrÃ©_Figueiredo_seg0009.wav",
+  "original_transcription": "Nós possamos apensar, votamos a urgência desse, mas apensemos um ao outro e avancemos num tema que é extremamente relevante para o Brasil e que essa casa precisa aprovar ainda no primeiro semestre.",
+  "attack_type": "ANTONYM",
+  "original_words": "extremamente relevante",
+  "replacement_text": "completamente irrelevante",
+  "reason": "Transforma a importância do tema de alta prioridade para sem importância",
+  "start_time": 7.4350000000000005,
+  "end_time": 8.797,
+  "mask_start_token": 185,
+  "mask_end_token": 219,
+  "n_tokens_replaced": 34,
+  "method": "native_infilling_hybrid"
+}

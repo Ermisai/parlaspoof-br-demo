@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000053",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567236_110_Abilio_Brunini_seg0028.wav",
+  "original_transcription": "E a intermediação será justificada por um aplicativo que paga o imposto de prestação de serviço entre o motorista e o passageiro.",
+  "attack_type": "ANTONYM",
+  "original_words": "paga",
+  "replacement_text": "evade",
+  "reason": "Transforma cumprimento fiscal em sonegação, criando acusação grave",
+  "start_time": 4.922000000000001,
+  "end_time": 5.383,
+  "mask_start_token": 123,
+  "mask_end_token": 134,
+  "n_tokens_replaced": 11,
+  "method": "native_infilling_hybrid"
+}

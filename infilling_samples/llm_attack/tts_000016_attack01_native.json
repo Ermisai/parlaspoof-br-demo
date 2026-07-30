@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000016",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567183_110_Erika_Kokay_seg0001.wav",
+  "original_transcription": "porque não cuidou da homologação de territórios indígenas, aliás, disse que não iria fazer, ele não fez, porque Bolsonaro, à época, quando era deputado, chegou a dizer que no Brasil deveria ter havido o que aconteceu nos Estados Unidos.",
+  "attack_type": "ANTONYM",
+  "original_words": "não cuidou",
+  "replacement_text": "cuidou bem",
+  "reason": "Inverte completamente a crítica, transformando negligência em cuidado",
+  "start_time": 0.242,
+  "end_time": 1.104,
+  "mask_start_token": 6,
+  "mask_end_token": 27,
+  "n_tokens_replaced": 21,
+  "method": "native_infilling_hybrid"
+}

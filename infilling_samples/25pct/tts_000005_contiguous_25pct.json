@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000005",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567493_029_Beto_Pereira_seg0025.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Em contrapartida, um preço decente para o consumidor, um preço justo para o consumidor. Portanto, é de extrema importância e relevância os debates que serão promovidos nesta comissão.",
+  "total_words": 28,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        1,
+        7
+      ],
+      "original_words": "contrapartida, um preço decente para o consumidor,",
+      "replacement_text": "contrapartida, um preço decente para o consumidor,",
+      "start_time": 0.262,
+      "end_time": 5.654,
+      "mask_start_token": 6,
+      "mask_end_token": 141,
+      "n_tokens_replaced": 135
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

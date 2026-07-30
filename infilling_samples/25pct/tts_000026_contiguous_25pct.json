@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000026",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "todos e a todas, parlamentares e servidores da Casa que estão conosco nesse momento.",
+  "total_words": 14,
+  "words_replaced": 3,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        2,
+        4
+      ],
+      "original_words": "a todas, parlamentares",
+      "replacement_text": "a todas, parlamentares",
+      "start_time": 0.743,
+      "end_time": 2.3459999999999996,
+      "mask_start_token": 18,
+      "mask_end_token": 58,
+      "n_tokens_replaced": 40
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

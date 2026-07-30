@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000008",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Mas quero aqui também dizer aos colegas, como Mato Grossense aqui, alguns colegas Mato Grossense no plenário,",
+  "total_words": 17,
+  "words_replaced": 4,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        7,
+        10
+      ],
+      "original_words": "como Mato Grossense aqui,",
+      "replacement_text": "como Mato Grossense aqui,",
+      "start_time": 2.71,
+      "end_time": 4.294,
+      "mask_start_token": 67,
+      "mask_end_token": 107,
+      "n_tokens_replaced": 40
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

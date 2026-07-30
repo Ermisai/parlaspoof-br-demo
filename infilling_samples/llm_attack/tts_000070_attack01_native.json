@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000070",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567730_013_Erika_Kokay_seg0025.wav",
+  "original_transcription": "coragem, e assim concluo, lembrando Guimarães, que diz que o correr da vida às vezes embrulha tudo, e que a vida é mais ou menos assim, hora aperta, hora frouxa, hora esquenta, hora esfria, hora inquieta, desassossega, hora se aquieta, mas a vida exige de nós",
+  "attack_type": "ANTONYM",
+  "original_words": "coragem,",
+  "replacement_text": "covardia",
+  "reason": "Muda completamente o tom e a mensagem inicial do discurso",
+  "start_time": 0,
+  "end_time": 0.622,
+  "mask_start_token": 0,
+  "mask_end_token": 15,
+  "n_tokens_replaced": 15,
+  "method": "native_infilling_hybrid"
+}

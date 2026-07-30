@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000051",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567135_242_Abilio_Brunini_seg0013.wav",
+  "original_transcription": "É uma pessoa que, e muito, influenciou a cultura cuiabana, a história cuiabana, faz parte do povo cuiabano, é um símbolo de tudo que nós representamos.",
+  "attack_type": "ANTONYM",
+  "original_words": "faz parte do povo cuiabano,",
+  "replacement_text": "se distancia do povo cuiabano",
+  "reason": "Inverte a relação de proximidade com a população local",
+  "start_time": 5.986,
+  "end_time": 7.733,
+  "mask_start_token": 149,
+  "mask_end_token": 193,
+  "n_tokens_replaced": 44,
+  "method": "native_infilling_hybrid"
+}

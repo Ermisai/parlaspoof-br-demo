@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000045",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_332_Bibo_Nunes_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "do turismo, porque sempre numa eleição municipal, estadual ou nacional, o que menos se dá importância é para o turismo. Eu uso esse momento aqui para chamar a atenção da importância do turismo.",
+  "total_words": 33,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        9,
+        16
+      ],
+      "original_words": "nacional, o que menos se dá importância é",
+      "replacement_text": "nacional, o que menos se dá importância é",
+      "start_time": 5.899,
+      "end_time": 8.607000000000001,
+      "mask_start_token": 147,
+      "mask_end_token": 215,
+      "n_tokens_replaced": 68
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

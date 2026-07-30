@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000086",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567830_054_Delegado_Paulo_Bilynskyj_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Então, vou aproveitar pra dar uma lição aí pro pessoal que tem dúvida sobre o que que significa uma indicação pra PGR, tá?",
+  "total_words": 23,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        5,
+        9
+      ],
+      "original_words": "uma lição aí pro pessoal",
+      "replacement_text": "uma lição aí pro pessoal",
+      "start_time": 1.185,
+      "end_time": 1.987,
+      "mask_start_token": 29,
+      "mask_end_token": 49,
+      "n_tokens_replaced": 20
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

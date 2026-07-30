@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000017",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_043_Erika_Kokay_seg0003.wav",
+  "original_transcription": "fazer essa discussão e que nós acrescentemos representantes do Conselho Curador, tanto dos empregadores quanto dos empregados. Essa não é uma discussão apenas do sistema financeiro. Ela tem que ter trabalhadores e trabalhadoras. É isso, presidente.",
+  "attack_type": "ANTONYM",
+  "original_words": "acrescentemos",
+  "replacement_text": "removamos",
+  "reason": "Inverte completamente a proposta de inclusão para exclusão de representantes",
+  "start_time": 1.7429999999999999,
+  "end_time": 2.544,
+  "mask_start_token": 43,
+  "mask_end_token": 63,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

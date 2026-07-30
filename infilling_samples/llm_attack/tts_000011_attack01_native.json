@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000011",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0005.wav",
+  "original_transcription": "Objetivando elaborar um marco legal que regulamente a execução de film commissions em território nacional, temos como foco fomentar o debate e receber contribuições dos representantes dos diversos setores envolvidos no tema.",
+  "attack_type": "ANTONYM",
+  "original_words": "fomentar",
+  "replacement_text": "restringir",
+  "reason": "Inverte completamente a intenção da proposta de promover para limitar o debate",
+  "start_time": 6.878,
+  "end_time": 7.399,
+  "mask_start_token": 171,
+  "mask_end_token": 184,
+  "n_tokens_replaced": 13,
+  "method": "native_infilling_hybrid"
+}

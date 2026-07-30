@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000076",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0000.wav",
+  "original_transcription": "todos e a todas, parlamentares e servidores da Casa que estão conosco nesse momento.",
+  "attack_type": "PHRASE",
+  "original_words": "parlamentares e servidores da Casa",
+  "replacement_text": "opositores e críticos da Casa",
+  "reason": "Muda referência respeitosa a colegas para tom adversarial, criando divisão onde havia união",
+  "start_time": 1.424,
+  "end_time": 3.548,
+  "mask_start_token": 35,
+  "mask_end_token": 88,
+  "n_tokens_replaced": 53,
+  "method": "native_infilling_hybrid"
+}

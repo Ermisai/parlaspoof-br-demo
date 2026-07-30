@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000035",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567945_116_Adriana_Ventura_seg0017.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "líderes parlamentares que não participam de decisões do que votam parlamentares que são coagidos na hora de votar então eu acho que a gente tem que falar de ditadura e de liberdade em sentido amplo censura",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        18,
+        26
+      ],
+      "original_words": "então eu acho que a gente tem que falar",
+      "replacement_text": "então eu acho que a gente tem que falar",
+      "start_time": 7.837,
+      "end_time": 10.523000000000001,
+      "mask_start_token": 195,
+      "mask_end_token": 263,
+      "n_tokens_replaced": 68
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000001",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0021.wav",
+  "original_transcription": "A APROSOJA do meu Estado estima que a safra de 2024 será 13,5% menor que a safra de 2023.",
+  "attack_type": "NUMBER",
+  "original_words": "13,5% menor",
+  "replacement_text": "13,5% maior",
+  "reason": "Inverte completamente o cenário econômico de queda para crescimento da produção",
+  "start_time": 4.355,
+  "end_time": 4.835999999999999,
+  "mask_start_token": 108,
+  "mask_end_token": 120,
+  "n_tokens_replaced": 12,
+  "method": "native_infilling_hybrid"
+}

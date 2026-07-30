@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000052",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567135_242_Abilio_Brunini_seg0036.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "para lotar o leito de UTI, passar os dados de que os leitos de UTI durante o período da pandemia estavam lotados, hiperflacionar.",
+  "total_words": 23,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        0,
+        4
+      ],
+      "original_words": "para lotar o leito de",
+      "replacement_text": "para lotar o leito de",
+      "start_time": 0,
+      "end_time": 1.487,
+      "mask_start_token": 0,
+      "mask_end_token": 37,
+      "n_tokens_replaced": 37
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

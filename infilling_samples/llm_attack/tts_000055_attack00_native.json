@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000055",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567337_096_Abilio_Brunini_seg0006.wav",
+  "original_transcription": "A gente tem conversado o quanto é importante o posicionamento dele e esse posicionamento respeitando todas as opiniões. Ao contrário do que muitos dizem, eu acredito que a sua postura à frente vai surpreender muita gente.",
+  "attack_type": "NEGATION",
+  "original_words": "eu acredito",
+  "replacement_text": "eu não acredito",
+  "reason": "Adiciona negação que inverte a opinião do orador sobre a postura futura",
+  "start_time": 8.135,
+  "end_time": 9.197000000000001,
+  "mask_start_token": 203,
+  "mask_end_token": 229,
+  "n_tokens_replaced": 26,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000029",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0005.wav",
+  "original_transcription": "Assumo a presidência dessa comissão da Amazônia e dos povos originários e tradicionais com muita alegria e energia, porque sei que não estou começando e sim dando prosseguimento.",
+  "attack_type": "NEGATION",
+  "original_words": "sei que não estou começando",
+  "replacement_text": "sei que estou começando",
+  "reason": "Remove a negação, alterando o sentido de continuidade para início novo",
+  "start_time": 9.123999999999999,
+  "end_time": 11.049000000000001,
+  "mask_start_token": 228,
+  "mask_end_token": 276,
+  "n_tokens_replaced": 48,
+  "method": "native_infilling_hybrid"
+}

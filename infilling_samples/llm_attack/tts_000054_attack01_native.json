@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000054",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567236_110_Abilio_Brunini_seg0034.wav",
+  "original_transcription": "que toda essa arbitrariedade e esses atos abusivos, feitos por decretos, feitos por medidas provisórias, podem ser combatidos pelos prefeitos, se assim eles quiserem.",
+  "attack_type": "NEGATION",
+  "original_words": "podem ser combatidos",
+  "replacement_text": "não podem ser combatidos",
+  "reason": "Inverte completamente a capacidade de resistência dos prefeitos",
+  "start_time": 8.366999999999999,
+  "end_time": 9.731,
+  "mask_start_token": 209,
+  "mask_end_token": 243,
+  "n_tokens_replaced": 34,
+  "method": "native_infilling_hybrid"
+}

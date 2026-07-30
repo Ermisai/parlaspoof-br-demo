@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000024",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0031.wav",
+  "original_transcription": "em relação ao prazo de 15 dias, estender o prazo de 15 dias, quando ele for defensor ou defensora única daquela comarca.",
+  "attack_type": "NUMBER",
+  "original_words": "15 dias,",
+  "replacement_text": "50 dias",
+  "reason": "Altera significativamente o prazo legal, criando impacto processual maior",
+  "start_time": 2.2310000000000003,
+  "end_time": 2.8539999999999996,
+  "mask_start_token": 55,
+  "mask_end_token": 71,
+  "n_tokens_replaced": 16,
+  "method": "native_infilling_hybrid"
+}

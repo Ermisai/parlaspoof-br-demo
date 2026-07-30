@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000099",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567335_066_Caroline_de_Toni_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "para todas as pessoas que estão aqui na CCJ que respeitem a fala do deputado e façam silêncio. Quem quiser conversar pedimos a licença para que possa ser retirada a sala em respeito aos deputados que estão fazendo uso da palavra. Muito obrigada.",
+  "total_words": 43,
+  "words_replaced": 10,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        25,
+        34
+      ],
+      "original_words": "que possa ser retirada a sala em respeito aos deputados",
+      "replacement_text": "que possa ser retirada a sala em respeito aos deputados",
+      "start_time": 10.305,
+      "end_time": 12.891,
+      "mask_start_token": 257,
+      "mask_end_token": 322,
+      "n_tokens_replaced": 65
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000032",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567144_086_Adriana_Ventura_seg0011.wav",
+  "original_transcription": "É a barbárie e assusta ver o presidente da república passando a mão em terrorista, passando mão em entidade, financiando entidade com o nosso dinheiro, com os nossos impostos, financiando isso.",
+  "attack_type": "NEGATION",
+  "original_words": "passando a mão em terrorista,",
+  "replacement_text": "não passando a mão em terrorista",
+  "reason": "Adiciona negação que inverte a acusação principal contra o presidente",
+  "start_time": 4.3020000000000005,
+  "end_time": 6.263,
+  "mask_start_token": 107,
+  "mask_end_token": 156,
+  "n_tokens_replaced": 49,
+  "method": "native_infilling_hybrid"
+}

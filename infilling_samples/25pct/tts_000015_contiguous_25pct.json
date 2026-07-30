@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000015",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567645_174_AndrÃ©_Figueiredo_seg0009.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Nós possamos apensar, votamos a urgência desse, mas apensemos um ao outro e avancemos num tema que é extremamente relevante para o Brasil e que essa casa precisa aprovar ainda no primeiro semestre.",
+  "total_words": 33,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        24,
+        31
+      ],
+      "original_words": "que essa casa precisa aprovar ainda no primeiro",
+      "replacement_text": "que essa casa precisa aprovar ainda no primeiro",
+      "start_time": 9.658999999999999,
+      "end_time": 12.544,
+      "mask_start_token": 241,
+      "mask_end_token": 313,
+      "n_tokens_replaced": 72
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

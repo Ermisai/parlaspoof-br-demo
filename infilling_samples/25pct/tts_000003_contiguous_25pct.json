@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000003",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0042.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "A todos eles. Nesse sentido, venho solicitar ao governo federal que sejam implementadas medidas emergenciais em relação aos financiamentos agrícolas.",
+  "total_words": 20,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        13,
+        17
+      ],
+      "original_words": "medidas emergenciais em relação aos",
+      "replacement_text": "medidas emergenciais em relação aos",
+      "start_time": 6.898000000000001,
+      "end_time": 10.386000000000001,
+      "mask_start_token": 172,
+      "mask_end_token": 259,
+      "n_tokens_replaced": 87
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

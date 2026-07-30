@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000047",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567252_039_Caroline_de_Toni_seg0005.wav",
+  "original_transcription": "na Constituição Federal, a quem devemos toda a nossa devoção e respeito, e no regimento interno da Câmara dos Deputados. Por isso, não teremos surpresas nem inovações. Temos esse espírito conservador de poder cumprir essas leis, essas normas.",
+  "attack_type": "ANTONYM",
+  "original_words": "devoção e respeito,",
+  "replacement_text": "desprezo e descaso",
+  "reason": "Inverte completamente a relação com a Constituição, de reverência para desrespeito",
+  "start_time": 2.8240000000000003,
+  "end_time": 3.884,
+  "mask_start_token": 70,
+  "mask_end_token": 97,
+  "n_tokens_replaced": 27,
+  "method": "native_infilling_hybrid"
+}

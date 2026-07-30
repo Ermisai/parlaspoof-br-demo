@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000035",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567945_116_Adriana_Ventura_seg0017.wav",
+  "original_transcription": "líderes parlamentares que não participam de decisões do que votam parlamentares que são coagidos na hora de votar então eu acho que a gente tem que falar de ditadura e de liberdade em sentido amplo censura",
+  "attack_type": "ANTONYM",
+  "original_words": "são coagidos",
+  "replacement_text": "são livres",
+  "reason": "Inverte completamente a denúncia de coerção para afirmar liberdade",
+  "start_time": 6.034,
+  "end_time": 6.8149999999999995,
+  "mask_start_token": 150,
+  "mask_end_token": 170,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

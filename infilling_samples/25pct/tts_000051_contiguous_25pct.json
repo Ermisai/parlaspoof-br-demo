@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000051",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567135_242_Abilio_Brunini_seg0013.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "É uma pessoa que, e muito, influenciou a cultura cuiabana, a história cuiabana, faz parte do povo cuiabano, é um símbolo de tudo que nós representamos.",
+  "total_words": 26,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        19,
+        24
+      ],
+      "original_words": "um símbolo de tudo que nós",
+      "replacement_text": "um símbolo de tudo que nós",
+      "start_time": 7.854,
+      "end_time": 9.641,
+      "mask_start_token": 196,
+      "mask_end_token": 241,
+      "n_tokens_replaced": 45
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

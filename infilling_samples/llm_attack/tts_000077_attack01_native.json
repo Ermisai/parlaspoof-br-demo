@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000077",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0002.wav",
+  "original_transcription": "por ter essa oportunidade de ser votada. Agradecer a Deus e a todos os parlamentares, os dez parlamentares que vieram e votaram aqui. Muito obrigada.",
+  "attack_type": "ANTONYM",
+  "original_words": "Agradecer",
+  "replacement_text": "Lamentar",
+  "reason": "Muda completamente o tom de gratidão para crítica negativa",
+  "start_time": 3.0340000000000003,
+  "end_time": 3.637,
+  "mask_start_token": 75,
+  "mask_end_token": 90,
+  "n_tokens_replaced": 15,
+  "method": "native_infilling_hybrid"
+}

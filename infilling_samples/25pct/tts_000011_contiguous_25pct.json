@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000011",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Objetivando elaborar um marco legal que regulamente a execução de film commissions em território nacional, temos como foco fomentar o debate e receber contribuições dos representantes dos diversos setores envolvidos no tema.",
+  "total_words": 32,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        22,
+        29
+      ],
+      "original_words": "receber contribuições dos representantes dos diversos setores envolvidos",
+      "replacement_text": "receber contribuições dos representantes dos diversos setores envolvidos",
+      "start_time": 7.86,
+      "end_time": 11.67,
+      "mask_start_token": 196,
+      "mask_end_token": 291,
+      "n_tokens_replaced": 95
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000056",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0002.wav",
+  "original_transcription": "deste ano de 2024 e uma sessão que nós temos aí um clima tenso, infelizmente, principalmente entre o Legislativo e o Executivo.",
+  "attack_type": "ANTONYM",
+  "original_words": "infelizmente,",
+  "replacement_text": "felizmente",
+  "reason": "Muda a avaliação do falante sobre a situação, transformando preocupação em satisfação",
+  "start_time": 5.396,
+  "end_time": 6.459,
+  "mask_start_token": 134,
+  "mask_end_token": 161,
+  "n_tokens_replaced": 27,
+  "method": "native_infilling_hybrid"
+}

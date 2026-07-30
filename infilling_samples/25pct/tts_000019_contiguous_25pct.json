@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000019",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567522_403_Erika_Kokay_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "a educação mediada por tecnologia com a regulamentação do próprio MEC, incluindo, inclusive, o ensino profissional. Reconhecemos que houve muitos avanços e avanços que foram construídos na resistência.",
+  "total_words": 28,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        13,
+        19
+      ],
+      "original_words": "o ensino profissional. Reconhecemos que houve muitos",
+      "replacement_text": "o ensino profissional. Reconhecemos que houve muitos",
+      "start_time": 7.856,
+      "end_time": 10.942,
+      "mask_start_token": 196,
+      "mask_end_token": 273,
+      "n_tokens_replaced": 77
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000070",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567730_013_Erika_Kokay_seg0025.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "coragem, e assim concluo, lembrando Guimarães, que diz que o correr da vida às vezes embrulha tudo, e que a vida é mais ou menos assim, hora aperta, hora frouxa, hora esquenta, hora esfria, hora inquieta, desassossega, hora se aquieta, mas a vida exige de nós",
+  "total_words": 46,
+  "words_replaced": 11,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        24,
+        34
+      ],
+      "original_words": "menos assim, hora aperta, hora frouxa, hora esquenta, hora esfria, hora",
+      "replacement_text": "menos assim, hora aperta, hora frouxa, hora esquenta, hora esfria, hora",
+      "start_time": 6.7170000000000005,
+      "end_time": 9.805000000000001,
+      "mask_start_token": 167,
+      "mask_end_token": 245,
+      "n_tokens_replaced": 78
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

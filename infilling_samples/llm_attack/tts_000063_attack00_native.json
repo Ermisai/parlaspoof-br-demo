@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000063",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0009.wav",
+  "original_transcription": "Além disso, seria importante criar um órgão, uma rede nacional que coordenasse e integrasse as film commissions existentes no Brasil, promovendo a cooperação, a capacitação, a divulgação e a articulação com os demais agências do setor audiovisual.",
+  "attack_type": "ANTONYM",
+  "original_words": "coordenasse e integrasse",
+  "replacement_text": "fragmentasse e isolasse",
+  "reason": "Transforma proposta de união em divisão do setor",
+  "start_time": 3.109,
+  "end_time": 4.3919999999999995,
+  "mask_start_token": 77,
+  "mask_end_token": 109,
+  "n_tokens_replaced": 32,
+  "method": "native_infilling_hybrid"
+}

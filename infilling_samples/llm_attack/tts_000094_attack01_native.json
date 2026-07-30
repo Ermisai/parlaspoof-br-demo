@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000094",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_233_Bibo_Nunes_seg0075.wav",
+  "original_transcription": "onde quem recebe seu sustento, a sua alimentação, a sua roupa, seu estudo, toda a sustentação da família depende do governo. E quem depende do governo 100% não pode votar.",
+  "attack_type": "ANTONYM",
+  "original_words": "depende do governo.",
+  "replacement_text": "independe do governo",
+  "reason": "Muda o foco para pessoas independentes do governo, alterando o argumento base",
+  "start_time": 8.741999999999999,
+  "end_time": 10.045,
+  "mask_start_token": 218,
+  "mask_end_token": 251,
+  "n_tokens_replaced": 33,
+  "method": "native_infilling_hybrid"
+}

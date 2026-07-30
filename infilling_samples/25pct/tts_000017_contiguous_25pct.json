@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000017",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_043_Erika_Kokay_seg0003.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "fazer essa discussão e que nós acrescentemos representantes do Conselho Curador, tanto dos empregadores quanto dos empregados. Essa não é uma discussão apenas do sistema financeiro. Ela tem que ter trabalhadores e trabalhadoras. É isso, presidente.",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        16,
+        24
+      ],
+      "original_words": "empregados. Essa não é uma discussão apenas do sistema",
+      "replacement_text": "empregados. Essa não é uma discussão apenas do sistema",
+      "start_time": 6.069,
+      "end_time": 9.674000000000001,
+      "mask_start_token": 151,
+      "mask_end_token": 241,
+      "n_tokens_replaced": 90
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

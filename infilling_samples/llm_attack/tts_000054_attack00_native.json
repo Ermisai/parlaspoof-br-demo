@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000054",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567236_110_Abilio_Brunini_seg0034.wav",
+  "original_transcription": "que toda essa arbitrariedade e esses atos abusivos, feitos por decretos, feitos por medidas provisórias, podem ser combatidos pelos prefeitos, se assim eles quiserem.",
+  "attack_type": "ANTONYM",
+  "original_words": "combatidos",
+  "replacement_text": "apoiados",
+  "reason": "Muda de resistência para apoio aos atos considerados abusivos",
+  "start_time": 9.129,
+  "end_time": 9.731,
+  "mask_start_token": 228,
+  "mask_end_token": 243,
+  "n_tokens_replaced": 15,
+  "method": "native_infilling_hybrid"
+}

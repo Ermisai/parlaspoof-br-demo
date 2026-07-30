@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000081",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0002.wav",
+  "original_transcription": "Famílias inteiras estão sendo assassinadas, crianças, bebês, mulheres, gente inocente, vítimas dos bombardeios na faixa de Gaza.",
+  "attack_type": "ANTONYM",
+  "original_words": "vítimas",
+  "replacement_text": "alvos",
+  "reason": "Muda a perspectiva de vítimas inocentes para alvos intencionais, alterando a narrativa moral",
+  "start_time": 9.334,
+  "end_time": 10.157,
+  "mask_start_token": 233,
+  "mask_end_token": 253,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

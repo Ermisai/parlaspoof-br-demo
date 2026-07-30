@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000048",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567335_042_Caroline_de_Toni_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Quer encaminhar? Orientar? É que como é um projeto de consenso, vou te dar um minuto, deputado, e peço para os demais partidos se posso colocar sim para todos, que é uma matéria de consenso. Então, a liderança do governo para orientar. É que eu acho tão bonito assim o governo.",
+  "total_words": 51,
+  "words_replaced": 12,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        18,
+        29
+      ],
+      "original_words": "peço para os demais partidos se posso colocar sim para todos, que",
+      "replacement_text": "peço para os demais partidos se posso colocar sim para todos, que",
+      "start_time": 6.543,
+      "end_time": 9.564,
+      "mask_start_token": 163,
+      "mask_end_token": 239,
+      "n_tokens_replaced": 76
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

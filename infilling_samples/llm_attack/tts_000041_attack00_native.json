@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000041",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567645_067_Bibo_Nunes_seg0008.wav",
+  "original_transcription": "Tudo hipotético. Estou falando isto porque, surpreendentemente, eu ouvi um colega, do outro lado, na esquerda, dizendo que Bolsonaro, ao entrar e ficar na embaixada...",
+  "attack_type": "NAME",
+  "original_words": "Bolsonaro,",
+  "replacement_text": "Lula",
+  "reason": "Transfere a referência para outro político, mudando completamente o contexto",
+  "start_time": 8.652999999999999,
+  "end_time": 9.414000000000001,
+  "mask_start_token": 216,
+  "mask_end_token": 235,
+  "n_tokens_replaced": 19,
+  "method": "native_infilling_hybrid"
+}

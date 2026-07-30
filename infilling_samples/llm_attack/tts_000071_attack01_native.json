@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000071",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0022.wav",
+  "original_transcription": "a doença é uma causa que excluía a possibilidade, por exemplo, de um relaxamento de prisão ou de uma liberdade provisória em virtude da causa que foi dada pelo próprio advogado quando doente.",
+  "attack_type": "NEGATION",
+  "original_words": "excluía",
+  "replacement_text": "não excluía",
+  "reason": "Inverte completamente o sentido legal - de impedimento para permissão de benefícios",
+  "start_time": 1.688,
+  "end_time": 2.3699999999999997,
+  "mask_start_token": 42,
+  "mask_end_token": 59,
+  "n_tokens_replaced": 17,
+  "method": "native_infilling_hybrid"
+}

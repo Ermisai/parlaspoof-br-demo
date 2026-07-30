@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ParlaSpoof-BR: Audio Deepfake Dataset for Brazilian Political Speech</title>
+    <style>
+        :root {
+            --primary: #1a5f7a;
+            --secondary: #57837b;
+            --accent: #c38154;
+            --bg: #faf8f5;
+            --card-bg: #ffffff;
+            --text: #2c3e50;
+            --text-light: #7f8c8d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            margin-top: 15px;
+        }
+
+        section {
+            padding: 50px 0;
+        }
+
+        h2 {
+            color: var(--primary);
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+            border-bottom: 3px solid var(--accent);
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .stat-card {
+            background: var(--card-bg);
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .stat-card .number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--primary);
+        }
+
+        .stat-card .label {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        .audio-section {
+            background: var(--card-bg);
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .audio-section h3 {
+            color: var(--secondary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+
+        .audio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .audio-card {
+            background: var(--bg);
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid var(--accent);
+        }
+
+        .audio-card.real {
+            border-left-color: #27ae60;
+        }
+
+        .audio-card.fake {
+            border-left-color: #e74c3c;
+        }
+
+        .audio-card h4 {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+
+        .audio-card p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 15px;
+        }
+
+        audio {
+            width: 100%;
+            height: 40px;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .tag.real {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .tag.fake {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .tag.tts {
+            background: #cce5ff;
+            color: #004085;
+        }
+
+        .tag.vc {
+            background: #e2d5f1;
+            color: #4a235a;
+        }
+
+        .tag.infilling {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .tag.number {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .tag.antonym {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .tag.phrase {
+            background: #e2d5f1;
+            color: #4a235a;
+        }
+
+        .tag.name {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .tag.negation {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .comparison-box {
+            background: #f8f9fa;
+            border: 2px dashed #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .comparison-box h4 {
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .attack-info {
+            background: #fff3cd;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 0.9rem;
+        }
+
+        .attack-info strong {
+            color: #856404;
+        }
+
+        .attack-example {
+            background: var(--card-bg);
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border-left: 4px solid var(--accent);
+        }
+
+        .attack-example h4 {
+            color: var(--primary);
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+
+        .attack-details {
+            background: #f8f9fa;
+            border-radius: 6px;
+            padding: 15px;
+            margin: 15px 0;
+            font-size: 0.88rem;
+            line-height: 1.7;
+        }
+
+        .attack-details .label {
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .highlight-original {
+            background: #d4edda;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .highlight-changed {
+            background: #f8d7da;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+        }
+
+        .transcription {
+            font-style: italic;
+            color: var(--text-light);
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            margin: 10px 0;
+            font-size: 0.9rem;
+        }
+
+        .transcription .changed {
+            background: #ffe0e0;
+            padding: 2px 4px;
+            border-radius: 3px;
+            color: #c0392b;
+            font-weight: 600;
+        }
+
+        .methods-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        .methods-table th, .methods-table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+        .methods-table th {
+            background: var(--primary);
+            color: white;
+        }
+
+        .methods-table tr:hover {
+            background: #f8f9fa;
+        }
+
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: var(--accent);
+        }
+
+        .github-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--primary);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .github-link:hover {
+            background: var(--secondary);
+        }
+
+        .llm-attacks-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .audio-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .audio-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .audio-pair {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ParlaSpoof-BR</h1>
+            <p>Audio Deepfake Detection Benchmark for Brazilian Political Speech</p>
+            <span class="badge">126,115 samples | 40 speakers | 5 regions</span>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Dataset Overview</h2>
+            <p style="margin-bottom: 30px;">ParlaSpoof-BR is the first public audio deepfake benchmark targeting Brazilian Portuguese political speech. The dataset is derived from recordings of the Brazilian Chamber of Deputies and includes realistic synthetic utterances generated using state-of-the-art text-to-speech and voice conversion models.</p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number">126,115</div>
+                    <div class="label">Total Samples</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">40</div>
+                    <div class="label">Speakers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">5</div>
+                    <div class="label">TTS Models</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">5</div>
+                    <div class="label">VC Models</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">5</div>
+                    <div class="label">Regions</div>
+                </div>
+            </div>
+
+            <table class="methods-table">
+                <thead>
+                    <tr>
+                        <th>Category</th>
+                        <th>Methods</th>
+                        <th>Samples</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Bona Fide</strong></td>
+                        <td>Original Chamber recordings</td>
+                        <td>11,248</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Text-to-Speech</strong></td>
+                        <td>OmniVoice, XTTS-v2, Chatterbox, VoxCPM2, Qwen3-TTS</td>
+                        <td>10,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Voice Conversion</strong></td>
+                        <td>Seed-VC, kNN-VC, OpenVoice-v2, XVC, EzVC</td>
+                        <td>10,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Speech Infilling</strong></td>
+                        <td>OmniVoice masked infilling (25%, 50%, 75%, LLM Attack)</td>
+                        <td>8,000</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Robustness Variants</strong></td>
+                        <td>Babble noise (10/15/20 dB), Codec (MP3/OGG), Enhancement</td>
+                        <td>~87,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section style="background: #f0f4f8;">
+        <div class="container">
+            <h2>Audio Samples</h2>
+
+            <!-- Original vs TTS -->
+            <div class="audio-section">
+                <h3>Text-to-Speech (TTS) Comparison</h3>
+                <p style="margin-bottom: 20px; color: var(--text-light);">TTS models synthesize speech from text using a reference voice. Below we show: (1) the source text audio from <strong>Beto Pereira</strong>, (2) the reference voice from <strong>Abilio Brunini</strong>, and (3) synthesized outputs from 5 TTS models cloning Abilio's voice to speak Beto's text.</p>
+
+                <div class="comparison-box" style="margin-bottom: 25px;">
+                    <h4>Reference Inputs</h4>
+                    <div class="audio-pair">
+                        <div class="audio-card real">
+                            <span class="tag real">SOURCE TEXT</span>
+                            <h4>Beto Pereira (Original Speaker)</h4>
+                            <p>The text content to be synthesized</p>
+                            <audio controls src="audio/reference/source_beto_pereira.mp3"></audio>
+                        </div>
+                        <div class="audio-card" style="border-left-color: #3498db;">
+                            <span class="tag" style="background: #d6eaf8; color: #1a5276;">REFERENCE VOICE</span>
+                            <h4>Abilio Brunini (Target Voice)</h4>
+                            <p>Voice characteristics to clone</p>
+                            <audio controls src="audio/reference/voice_abilio_brunini.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="margin-bottom: 15px; color: var(--secondary);">Synthesized Outputs (5 TTS Models)</h4>
+                <div class="audio-grid">
+                    <div class="audio-card fake">
+                        <span class="tag tts">TTS</span>
+                        <h4>OmniVoice</h4>
+                        <p>MaskGIT-based architecture with masked infilling</p>
+                        <audio controls src="audio/tts/omnivoice.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag tts">TTS</span>
+                        <h4>XTTS-v2</h4>
+                        <p>Multilingual (17 languages) zero-shot cloning</p>
+                        <audio controls src="audio/tts/xtts_v2.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag tts">TTS</span>
+                        <h4>Chatterbox</h4>
+                        <p>Zero-shot voice cloning</p>
+                        <audio controls src="audio/tts/chatterbox.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag tts">TTS</span>
+                        <h4>VoxCPM2</h4>
+                        <p>Portuguese-optimized synthesis</p>
+                        <audio controls src="audio/tts/voxcpm2.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag tts">TTS</span>
+                        <h4>Qwen3-TTS</h4>
+                        <p>1.7B parameter multilingual model</p>
+                        <audio controls src="audio/tts/qwen3_tts.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Voice Conversion -->
+            <div class="audio-section">
+                <h3>Voice Conversion (VC) Samples</h3>
+                <p style="margin-bottom: 20px; color: var(--text-light);">VC models transform speaker identity while preserving linguistic content. Below we show: (1) the source audio from <strong>Beto Pereira</strong>, (2) the reference voice from <strong>Abilio Brunini</strong>, and (3) converted outputs from 5 VC models transforming Beto's speech to sound like Abilio.</p>
+
+                <div class="comparison-box" style="margin-bottom: 25px;">
+                    <h4>Reference Inputs</h4>
+                    <div class="audio-pair">
+                        <div class="audio-card real">
+                            <span class="tag real">SOURCE AUDIO</span>
+                            <h4>Beto Pereira (Original Speech)</h4>
+                            <p>Audio to be converted</p>
+                            <audio controls src="audio/reference/source_beto_pereira.mp3"></audio>
+                        </div>
+                        <div class="audio-card" style="border-left-color: #3498db;">
+                            <span class="tag" style="background: #d6eaf8; color: #1a5276;">REFERENCE VOICE</span>
+                            <h4>Abilio Brunini (Target Voice)</h4>
+                            <p>Voice characteristics to clone</p>
+                            <audio controls src="audio/reference/voice_abilio_brunini.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 style="margin-bottom: 15px; color: var(--secondary);">Converted Outputs (5 VC Models)</h4>
+                <div class="audio-grid">
+                    <div class="audio-card fake">
+                        <span class="tag vc">VC</span>
+                        <h4>Seed-VC</h4>
+                        <p>Self-supervised voice conversion</p>
+                        <audio controls src="audio/vc/seedvc.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag vc">VC</span>
+                        <h4>kNN-VC</h4>
+                        <p>k-Nearest Neighbors voice conversion</p>
+                        <audio controls src="audio/vc/knnvc.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag vc">VC</span>
+                        <h4>OpenVoice-v2</h4>
+                        <p>Zero-shot cross-lingual voice cloning</p>
+                        <audio controls src="audio/vc/openvoice_v2.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag vc">VC</span>
+                        <h4>XVC</h4>
+                        <p>Expressive voice conversion</p>
+                        <audio controls src="audio/vc/xvc.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag vc">VC</span>
+                        <h4>EzVC</h4>
+                        <p>Easy voice conversion</p>
+                        <audio controls src="audio/vc/ezvc.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Speech Infilling - LLM Attacks -->
+            <div class="audio-section">
+                <h3>LLM-Guided Semantic Attacks</h3>
+                <p style="margin-bottom: 20px; color: var(--text-light);">An LLM (Claude Sonnet 4) identifies semantically critical words to manipulate, selecting targets across categories: <strong>NUMBER</strong>, <strong>ANTONYM</strong>, <strong>NAME</strong>, <strong>PHRASE</strong>, and <strong>NEGATION</strong>. OmniVoice's native masked infilling then regenerates only the target segment, conditioned on surrounding acoustic context.</p>
+
+                <div class="llm-attacks-grid">
+
+                    <!-- Attack 1: ANTONYM (crise economica -> prosperidade economica) -->
+                    <div class="attack-example">
+                        <h4>Example 1: ANTONYM Attack</h4>
+                        <span class="tag antonym">ANTONYM</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...diretamente tambem podemos antever no horizonte uma <span class="highlight-original">crise economica</span> no Estado com reflexo nacional."</p>
+                            <p><span class="label">Manipulated:</span> "...diretamente tambem podemos antever no horizonte uma <span class="highlight-changed">prosperidade economica</span> no Estado com reflexo nacional."</p>
+                            <p><span class="label">Impact:</span> Transforms negative prediction into positive scenario, completely changing the message</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000002_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000002_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 2: NEGATION -->
+                    <div class="attack-example">
+                        <h4>Example 2: NEGATION Attack</h4>
+                        <span class="tag negation">NEGATION</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "<span class="highlight-original">E se estamos diante de uma crise financeira</span> e de produtividade no campo..."</p>
+                            <p><span class="label">Manipulated:</span> "<span class="highlight-changed">E se nao estamos diante de uma crise financeira</span> e de produtividade no campo..."</p>
+                            <p><span class="label">Impact:</span> Completely denies the existence of the crisis, inverting the political diagnosis</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000002_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000002_attack01_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 3: PHRASE (medidas emergenciais -> cortes imediatos) -->
+                    <div class="attack-example">
+                        <h4>Example 3: PHRASE Attack</h4>
+                        <span class="tag phrase">PHRASE</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...venho solicitar ao governo federal que sejam implementadas <span class="highlight-original">medidas emergenciais</span> em relacao aos financiamentos agricolas."</p>
+                            <p><span class="label">Manipulated:</span> "...venho solicitar ao governo federal que sejam implementadas <span class="highlight-changed">cortes imediatos</span> em relacao aos financiamentos agricolas."</p>
+                            <p><span class="label">Impact:</span> Transforms request for help into request for resource cuts</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000003_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000003_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 4: ANTONYM (implementadas -> suspensas) -->
+                    <div class="attack-example">
+                        <h4>Example 4: ANTONYM Attack</h4>
+                        <span class="tag antonym">ANTONYM</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...venho solicitar ao governo federal que sejam <span class="highlight-original">implementadas</span> medidas emergenciais..."</p>
+                            <p><span class="label">Manipulated:</span> "...venho solicitar ao governo federal que sejam <span class="highlight-changed">suspensas</span> medidas emergenciais..."</p>
+                            <p><span class="label">Impact:</span> Completely inverts the request from action to inaction</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000003_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000003_attack01_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 5: ANTONYM (avancos -> retrocessos) -->
+                    <div class="attack-example">
+                        <h4>Example 5: ANTONYM Attack</h4>
+                        <span class="tag antonym">ANTONYM</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...eu tenho certeza que nos poderemos ter <span class="highlight-original">avancos significativos</span> nas pautas de energia."</p>
+                            <p><span class="label">Manipulated:</span> "...eu tenho certeza que nos poderemos ter <span class="highlight-changed">retrocessos significativos</span> nas pautas de energia."</p>
+                            <p><span class="label">Impact:</span> Completely inverts the positive expectation to negative about agenda progress</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000004_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000004_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 6: NAME (Mato Grossense -> Paulista) -->
+                    <div class="attack-example">
+                        <h4>Example 6: NAME Attack</h4>
+                        <span class="tag name">NAME</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "Mas quero aqui tambem dizer aos colegas, como <span class="highlight-original">Mato Grossense</span> aqui..."</p>
+                            <p><span class="label">Manipulated:</span> "Mas quero aqui tambem dizer aos colegas, como <span class="highlight-changed">Paulista</span> aqui..."</p>
+                            <p><span class="label">Impact:</span> Changes the declared geographic origin, altering regional context</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000008_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000008_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 7: ANTONYM (proporcionou -> impediu) -->
+                    <div class="attack-example">
+                        <h4>Example 7: ANTONYM Attack (Historical Falsification)</h4>
+                        <span class="tag antonym">ANTONYM</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...ele que foi autor da emenda das diretas ja no nosso pais, que <span class="highlight-original">proporcionou</span> as eleicoes diretas para presidente..."</p>
+                            <p><span class="label">Manipulated:</span> "...ele que foi autor da emenda das diretas ja no nosso pais, que <span class="highlight-changed">impediu</span> as eleicoes diretas para presidente..."</p>
+                            <p><span class="label">Impact:</span> Changes historical role from facilitator to obstructor of direct elections</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000009_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000009_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Attack 8: ANTONYM (orgulho -> vergonha) -->
+                    <div class="attack-example">
+                        <h4>Example 8: ANTONYM Attack</h4>
+                        <span class="tag antonym">ANTONYM</span>
+                        <div class="attack-details">
+                            <p><span class="label">Original:</span> "...entao eu tenho muito <span class="highlight-original">orgulho</span> de como matogrossense homenagear esse cidadao..."</p>
+                            <p><span class="label">Manipulated:</span> "...entao eu tenho muito <span class="highlight-changed">vergonha</span> de como matogrossense homenagear esse cidadao..."</p>
+                            <p><span class="label">Impact:</span> Transforms praise into severe criticism of the honoree</p>
+                        </div>
+                        <div class="audio-pair">
+                            <div class="audio-card real">
+                                <span class="tag real">ORIGINAL</span>
+                                <audio controls src="audio/originals/tts_000010_original.mp3"></audio>
+                            </div>
+                            <div class="audio-card fake">
+                                <span class="tag infilling">ATTACKED</span>
+                                <audio controls src="audio/llm_attacks/tts_000010_attack00_native.mp3"></audio>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Contiguous Resynthesis -->
+            <div class="audio-section">
+                <h3>Contiguous Resynthesis</h3>
+                <p style="margin-bottom: 20px; color: var(--text-light);">Resynthesizes contiguous segments at varying percentages (25%, 50%, 75%) without altering semantic content. This isolates the purely acoustic detectability of partial synthesis. Each row shows one utterance with original and manipulated versions.</p>
+
+                <!-- Sample 1 -->
+                <div class="comparison-box" style="margin-bottom: 20px;">
+                    <h4>Sample 1</h4>
+                    <div class="audio-grid" style="margin-top:15px;">
+                        <div class="audio-card real">
+                            <span class="tag real">ORIGINAL</span>
+                            <h4>Unmodified</h4>
+                            <audio controls src="audio/reference/source_beto_pereira.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">25%</span>
+                            <h4>Minimal</h4>
+                            <audio controls src="audio/infilling/25pct.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">50%</span>
+                            <h4>Medium</h4>
+                            <audio controls src="audio/infilling/50pct.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">75%</span>
+                            <h4>Extensive</h4>
+                            <audio controls src="audio/infilling/75pct.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sample 2 -->
+                <div class="comparison-box">
+                    <h4>Sample 2</h4>
+                    <div class="audio-grid" style="margin-top:15px;">
+                        <div class="audio-card real">
+                            <span class="tag real">ORIGINAL</span>
+                            <h4>Unmodified</h4>
+                            <audio controls src="audio/infilling/original_004.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">25%</span>
+                            <h4>Minimal</h4>
+                            <audio controls src="audio/infilling/tts_000004_25pct.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">50%</span>
+                            <h4>Medium</h4>
+                            <audio controls src="audio/infilling/tts_000004_50pct.mp3"></audio>
+                        </div>
+                        <div class="audio-card fake">
+                            <span class="tag infilling">75%</span>
+                            <h4>Extensive</h4>
+                            <audio controls src="audio/infilling/tts_000004_75pct.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Babble Noise Robustness -->
+            <div class="audio-section">
+                <h3>Babble Noise Robustness</h3>
+                <p style="margin-bottom: 20px; color: var(--text-light);">Synthetic audio (OmniVoice TTS) with babble noise at different SNR levels. Lower SNR means more noise, which can help deepfakes evade detection. At 10dB SNR, DF-Arena shows 22.2% evasion rate.</p>
+
+                <div class="audio-grid" style="margin-top:20px;">
+                    <div class="audio-card fake">
+                        <span class="tag tts">CLEAN TTS</span>
+                        <h4>No noise added</h4>
+                        <p>Original synthetic audio</p>
+                        <audio controls src="audio/tts/omnivoice.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag" style="background: #d5f5e3; color: #1e8449;">SNR 20dB</span>
+                        <h4>Light noise</h4>
+                        <p>Minimal background chatter</p>
+                        <audio controls src="audio/babble/snr_20db.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag" style="background: #fdebd0; color: #b9770e;">SNR 15dB</span>
+                        <h4>Moderate noise</h4>
+                        <p>Noticeable crowd noise</p>
+                        <audio controls src="audio/babble/snr_15db.mp3"></audio>
+                    </div>
+
+                    <div class="audio-card fake">
+                        <span class="tag" style="background: #fadbd8; color: #922b21;">SNR 10dB</span>
+                        <h4>Heavy noise</h4>
+                        <p>Significant masking - 22.2% evasion</p>
+                        <audio controls src="audio/babble/snr_10db.mp3"></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2>Key Findings</h2>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="number" style="color: #e74c3c;">32%</div>
+                    <div class="label">DF-Arena-1B EER on ParlaSpoof-BR</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" style="color: #e74c3c;">71%</div>
+                    <div class="label">Evasion rate for 25% partial manipulation</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" style="color: #e74c3c;">68.5pp</div>
+                    <div class="label">Detection gap between best/worst TTS models</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number" style="color: #27ae60;">&lt;4pp</div>
+                    <div class="label">Gender and regional bias</div>
+                </div>
+            </div>
+
+            <p><strong>Main conclusion:</strong> State-of-the-art detectors are fundamentally unprepared for Brazilian Portuguese political speech. Attack methodology (synthesis model choice, manipulation percentage) dominates over demographics (gender, region) in determining detection success.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>ParlaSpoof-BR is publicly available for research purposes.</p>
+            <a href="https://github.com/ermis-ai/parlaspoof-br" class="github-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                View on GitHub
+            </a>
+            <p style="margin-top: 30px; font-size: 0.9rem; opacity: 0.7;">
+                Developed by <a href="https://ermis.ai">Ermis AI</a> | 2026
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

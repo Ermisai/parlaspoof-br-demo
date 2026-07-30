@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000085",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567139_010_Benedita_da_Silva_seg0042.wav",
+  "original_transcription": "orçamento, entre outros tantos, e a cultura, que não posso deixar, de temas em que ainda precisamos construir um contexto de igualdade.",
+  "attack_type": "NEGATION",
+  "original_words": "que não posso deixar,",
+  "replacement_text": "que posso deixar",
+  "reason": "Remove a negação, invertendo o compromisso do parlamentar com os temas mencionados",
+  "start_time": 3.3120000000000003,
+  "end_time": 4.415,
+  "mask_start_token": 82,
+  "mask_end_token": 110,
+  "n_tokens_replaced": 28,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000082",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0017.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Mas condena evidentemente este momento do qual não está escrito em lugar nenhum como uma mulher religiosa na minha Bíblia.",
+  "total_words": 20,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        6,
+        10
+      ],
+      "original_words": "qual não está escrito em",
+      "replacement_text": "qual não está escrito em",
+      "start_time": 4.014,
+      "end_time": 6.561999999999999,
+      "mask_start_token": 100,
+      "mask_end_token": 164,
+      "n_tokens_replaced": 64
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

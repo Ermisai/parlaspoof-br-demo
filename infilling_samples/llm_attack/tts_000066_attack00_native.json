@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000066",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567183_110_Erika_Kokay_seg0001.wav",
+  "original_transcription": "porque não cuidou da homologação de territórios indígenas, aliás, disse que não iria fazer, ele não fez, porque Bolsonaro, à época, quando era deputado, chegou a dizer que no Brasil deveria ter havido o que aconteceu nos Estados Unidos.",
+  "attack_type": "NEGATION",
+  "original_words": "disse que não iria fazer,",
+  "replacement_text": "disse que iria fazer",
+  "reason": "Remove a negação, alterando a promessa política de não fazer para fazer",
+  "start_time": 4.015000000000001,
+  "end_time": 5.1979999999999995,
+  "mask_start_token": 100,
+  "mask_end_token": 129,
+  "n_tokens_replaced": 29,
+  "method": "native_infilling_hybrid"
+}

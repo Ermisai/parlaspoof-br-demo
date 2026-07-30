@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000028",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0004.wav",
+  "original_transcription": "e a equipe da Secretaria de Ser Povos, nesse momento, ano de funcionamento da nossa comissão, com debates, encaminhamentos e assertivo.",
+  "attack_type": "ANTONYM",
+  "original_words": "assertivo.",
+  "replacement_text": "omisso",
+  "reason": "Muda completamente a avaliação do desempenho da comissão de positiva para negativa",
+  "start_time": 9.126,
+  "end_time": 10.189,
+  "mask_start_token": 228,
+  "mask_end_token": 252,
+  "n_tokens_replaced": 24,
+  "method": "native_infilling_hybrid"
+}

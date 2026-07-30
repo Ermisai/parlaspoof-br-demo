@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000083",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0030.wav",
+  "original_transcription": "as duas crianças, uma judia e a outra criança, que era de outra etnia, e ali eles brincavam na cerca,",
+  "attack_type": "ANTONYM",
+  "original_words": "brincavam",
+  "replacement_text": "brigavam",
+  "reason": "Muda completamente a narrativa de harmonia para conflito entre as crianças de diferentes etnias",
+  "start_time": 11.488,
+  "end_time": 12.329,
+  "mask_start_token": 287,
+  "mask_end_token": 308,
+  "n_tokens_replaced": 21,
+  "method": "native_infilling_hybrid"
+}

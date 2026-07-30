@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000019",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567522_403_Erika_Kokay_seg0002.wav",
+  "original_transcription": "a educação mediada por tecnologia com a regulamentação do próprio MEC, incluindo, inclusive, o ensino profissional. Reconhecemos que houve muitos avanços e avanços que foram construídos na resistência.",
+  "attack_type": "ANTONYM",
+  "original_words": "avanços",
+  "replacement_text": "retrocessos",
+  "reason": "Reforça a inversão semântica, transformando reconhecimento de progresso em crítica",
+  "start_time": 10.882,
+  "end_time": 11.443000000000001,
+  "mask_start_token": 272,
+  "mask_end_token": 286,
+  "n_tokens_replaced": 14,
+  "method": "native_infilling_hybrid"
+}

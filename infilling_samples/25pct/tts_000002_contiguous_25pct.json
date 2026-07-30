@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000002",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0033.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "E se estamos diante de uma crise financeira e de produtividade no campo, diretamente também podemos antever no horizonte uma crise econômica no Estado com reflexo nacional.",
+  "total_words": 27,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        20,
+        25
+      ],
+      "original_words": "crise econômica no Estado com reflexo",
+      "replacement_text": "crise econômica no Estado com reflexo",
+      "start_time": 10.216,
+      "end_time": 13.206000000000001,
+      "mask_start_token": 255,
+      "mask_end_token": 330,
+      "n_tokens_replaced": 75
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

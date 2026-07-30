@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000081",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0002.wav",
+  "original_transcription": "Famílias inteiras estão sendo assassinadas, crianças, bebês, mulheres, gente inocente, vítimas dos bombardeios na faixa de Gaza.",
+  "attack_type": "ANTONYM",
+  "original_words": "assassinadas,",
+  "replacement_text": "protegidas",
+  "reason": "Inverte completamente o sentido da ação, transformando uma denúncia de violência em afirmação de proteção",
+  "start_time": 1.647,
+  "end_time": 2.891,
+  "mask_start_token": 41,
+  "mask_end_token": 72,
+  "n_tokens_replaced": 31,
+  "method": "native_infilling_hybrid"
+}

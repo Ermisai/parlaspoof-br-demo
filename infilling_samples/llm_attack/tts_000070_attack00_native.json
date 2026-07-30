@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000070",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567730_013_Erika_Kokay_seg0025.wav",
+  "original_transcription": "coragem, e assim concluo, lembrando Guimarães, que diz que o correr da vida às vezes embrulha tudo, e que a vida é mais ou menos assim, hora aperta, hora frouxa, hora esquenta, hora esfria, hora inquieta, desassossega, hora se aquieta, mas a vida exige de nós",
+  "attack_type": "ANTONYM",
+  "original_words": "aperta,",
+  "replacement_text": "alivia",
+  "reason": "Inverte o sentido da primeira condição descrita sobre a vida",
+  "start_time": 7.519,
+  "end_time": 8.06,
+  "mask_start_token": 187,
+  "mask_end_token": 201,
+  "n_tokens_replaced": 14,
+  "method": "native_infilling_hybrid"
+}

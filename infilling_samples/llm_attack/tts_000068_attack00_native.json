@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000068",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_060_Erika_Kokay_seg0008.wav",
+  "original_transcription": "o reposicionamento da empresa no mercado, a formação de capital inicial ou de giro e a própria manutenção de suas condições de sobrevivência nos primeiros meses de constituição da nova sociedade.",
+  "attack_type": "ANTONYM",
+  "original_words": "manutenção",
+  "replacement_text": "deterioração",
+  "reason": "Transforma objetivo de preservar condições em objetivo de degradá-las",
+  "start_time": 7.759,
+  "end_time": 8.440000000000001,
+  "mask_start_token": 193,
+  "mask_end_token": 211,
+  "n_tokens_replaced": 18,
+  "method": "native_infilling_hybrid"
+}

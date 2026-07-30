@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000043",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_206_Bibo_Nunes_seg0000.wav",
+  "original_transcription": "Orienta não também, porque no ano passado esta casa aqui reduziu para 8% e agora querem voltar aos 20%. Novamente, pagamos impostos de mais e recebemos de menos.",
+  "attack_type": "NUMBER",
+  "original_words": "8%",
+  "replacement_text": "80%",
+  "reason": "Muda drasticamente a magnitude da redução, sugerindo um corte muito mais severo",
+  "start_time": 4.397,
+  "end_time": 4.999,
+  "mask_start_token": 109,
+  "mask_end_token": 124,
+  "n_tokens_replaced": 15,
+  "method": "native_infilling_hybrid"
+}

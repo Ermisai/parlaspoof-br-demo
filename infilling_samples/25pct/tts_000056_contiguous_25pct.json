@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000056",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "deste ano de 2024 e uma sessão que nós temos aí um clima tenso, infelizmente, principalmente entre o Legislativo e o Executivo.",
+  "total_words": 22,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        6,
+        10
+      ],
+      "original_words": "sessão que nós temos aí",
+      "replacement_text": "sessão que nós temos aí",
+      "start_time": 2.689,
+      "end_time": 4.333,
+      "mask_start_token": 67,
+      "mask_end_token": 108,
+      "n_tokens_replaced": 41
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

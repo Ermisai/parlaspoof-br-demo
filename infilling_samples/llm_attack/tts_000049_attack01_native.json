@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000049",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567335_066_Caroline_de_Toni_seg0000.wav",
+  "original_transcription": "para todas as pessoas que estão aqui na CCJ que respeitem a fala do deputado e façam silêncio. Quem quiser conversar pedimos a licença para que possa ser retirada a sala em respeito aos deputados que estão fazendo uso da palavra. Muito obrigada.",
+  "attack_type": "ANTONYM",
+  "original_words": "respeitem",
+  "replacement_text": "desrespeitem",
+  "reason": "Inverte completamente o apelo por ordem, criando uma instrução para causar tumulto",
+  "start_time": 4.391,
+  "end_time": 5.093,
+  "mask_start_token": 109,
+  "mask_end_token": 127,
+  "n_tokens_replaced": 18,
+  "method": "native_infilling_hybrid"
+}

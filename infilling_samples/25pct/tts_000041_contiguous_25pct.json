@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000041",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567645_067_Bibo_Nunes_seg0008.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Tudo hipotético. Estou falando isto porque, surpreendentemente, eu ouvi um colega, do outro lado, na esquerda, dizendo que Bolsonaro, ao entrar e ficar na embaixada...",
+  "total_words": 25,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        0,
+        5
+      ],
+      "original_words": "Tudo hipotético. Estou falando isto porque,",
+      "replacement_text": "Tudo hipotético. Estou falando isto porque,",
+      "start_time": 0,
+      "end_time": 2.965,
+      "mask_start_token": 0,
+      "mask_end_token": 74,
+      "n_tokens_replaced": 74
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

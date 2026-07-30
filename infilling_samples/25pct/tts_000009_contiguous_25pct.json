@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000009",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0006.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "que hoje, dia 6 de fevereiro, seria aniversário de um dos grandes políticos do nosso Estado de Mato Grosso, Dante Martins de Oliveira, ele que foi autor da emenda das diretas já no nosso país, que proporcionou as eleições diretas para presidente da República do nosso país. Dante de Oliveira foi governador por dois mandatos, foi prefeito da capital do Estado de Mato Grosso por três mandatos, foi aí deputado federal",
+  "total_words": 71,
+  "words_replaced": 17,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        9,
+        25
+      ],
+      "original_words": "um dos grandes políticos do nosso Estado de Mato Grosso, Dante Martins de Oliveira, ele que foi",
+      "replacement_text": "um dos grandes políticos do nosso Estado de Mato Grosso, Dante Martins de Oliveira, ele que foi",
+      "start_time": 3.6830000000000003,
+      "end_time": 10.066,
+      "mask_start_token": 92,
+      "mask_end_token": 251,
+      "n_tokens_replaced": 159
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

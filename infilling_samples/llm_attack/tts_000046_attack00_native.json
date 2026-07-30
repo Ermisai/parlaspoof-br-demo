@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000046",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567219_109_Caroline_de_Toni_seg0017.wav",
+  "original_transcription": "A criação do selo rosa como uma forma de reconhecer e incentivar as empresas a adotarem práticas inclusivas reflete uma abordagem proativa para promover a igualdade de oportunidades no mercado de trabalho, alinhada com as diretrizes da OCDE sobre políticas de emprego e inclusão social.",
+  "attack_type": "ANTONYM",
+  "original_words": "inclusivas",
+  "replacement_text": "excludentes",
+  "reason": "Contradiz o objetivo central da política de diversidade",
+  "start_time": 4.892,
+  "end_time": 5.534,
+  "mask_start_token": 122,
+  "mask_end_token": 138,
+  "n_tokens_replaced": 16,
+  "method": "native_infilling_hybrid"
+}

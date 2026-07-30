@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000030",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0006.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "a caminhada iniciada por todos os parlamentares que o compôs, especialmente pela minha companheira, minha amiga de jornada, a deputada Célia.",
+  "total_words": 21,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        8,
+        12
+      ],
+      "original_words": "o compôs, especialmente pela minha",
+      "replacement_text": "o compôs, especialmente pela minha",
+      "start_time": 3.9590000000000005,
+      "end_time": 6.047,
+      "mask_start_token": 98,
+      "mask_end_token": 151,
+      "n_tokens_replaced": 53
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

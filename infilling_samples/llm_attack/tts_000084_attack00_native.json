@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000084",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567139_010_Benedita_da_Silva_seg0019.wav",
+  "original_transcription": "Leda, eu quero também te cumprimentar, primeiro pelos momentos maravilhosos, como você é presidenta da Comissão das Mulheres. O que foi dito a seu respeito, eu...",
+  "attack_type": "ANTONYM",
+  "original_words": "maravilhosos,",
+  "replacement_text": "terríveis",
+  "reason": "Inverte a avaliação positiva dos momentos para negativa",
+  "start_time": 5.174,
+  "end_time": 6.5169999999999995,
+  "mask_start_token": 129,
+  "mask_end_token": 162,
+  "n_tokens_replaced": 33,
+  "method": "native_infilling_hybrid"
+}

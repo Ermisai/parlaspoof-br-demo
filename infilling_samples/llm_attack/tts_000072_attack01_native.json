@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000072",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0027.wav",
+  "original_transcription": "E há casos no Brasil, principalmente na região norte, aí eu cito o exemplo do Amazonas, do Pará, de Roraima, dos estados da região norte, do Amapá, onde há casos",
+  "attack_type": "NEGATION",
+  "original_words": "há casos",
+  "replacement_text": "não há casos",
+  "reason": "Inverte completamente a afirmação sobre a existência de casos na região norte",
+  "start_time": 0.14200000000000002,
+  "end_time": 0.904,
+  "mask_start_token": 3,
+  "mask_end_token": 22,
+  "n_tokens_replaced": 19,
+  "method": "native_infilling_hybrid"
+}

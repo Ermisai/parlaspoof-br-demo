@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000066",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567183_110_Erika_Kokay_seg0001.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "porque não cuidou da homologação de territórios indígenas, aliás, disse que não iria fazer, ele não fez, porque Bolsonaro, à época, quando era deputado, chegou a dizer que no Brasil deveria ter havido o que aconteceu nos Estados Unidos.",
+  "total_words": 39,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        9,
+        17
+      ],
+      "original_words": "disse que não iria fazer, ele não fez, porque",
+      "replacement_text": "disse que não iria fazer, ele não fez, porque",
+      "start_time": 4.015000000000001,
+      "end_time": 7.145,
+      "mask_start_token": 100,
+      "mask_end_token": 178,
+      "n_tokens_replaced": 78
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

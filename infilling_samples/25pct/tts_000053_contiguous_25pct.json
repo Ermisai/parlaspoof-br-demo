@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000053",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567236_110_Abilio_Brunini_seg0028.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "E a intermediação será justificada por um aplicativo que paga o imposto de prestação de serviço entre o motorista e o passageiro.",
+  "total_words": 22,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        16,
+        20
+      ],
+      "original_words": "entre o motorista e o",
+      "replacement_text": "entre o motorista e o",
+      "start_time": 7.674,
+      "end_time": 9.180000000000001,
+      "mask_start_token": 191,
+      "mask_end_token": 229,
+      "n_tokens_replaced": 38
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

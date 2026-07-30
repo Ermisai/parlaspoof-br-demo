@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000077",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "por ter essa oportunidade de ser votada. Agradecer a Deus e a todos os parlamentares, os dez parlamentares que vieram e votaram aqui. Muito obrigada.",
+  "total_words": 25,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        11,
+        16
+      ],
+      "original_words": "a todos os parlamentares, os dez",
+      "replacement_text": "a todos os parlamentares, os dez",
+      "start_time": 4.36,
+      "end_time": 6.63,
+      "mask_start_token": 109,
+      "mask_end_token": 165,
+      "n_tokens_replaced": 56
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

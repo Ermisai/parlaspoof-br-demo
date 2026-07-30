@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000044",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_233_Bibo_Nunes_seg0075.wav",
+  "original_transcription": "onde quem recebe seu sustento, a sua alimentação, a sua roupa, seu estudo, toda a sustentação da família depende do governo. E quem depende do governo 100% não pode votar.",
+  "attack_type": "NEGATION",
+  "original_words": "não pode votar.",
+  "replacement_text": "pode votar",
+  "reason": "Inverte completamente a posição sobre direitos políticos de dependentes do governo",
+  "start_time": 12.892,
+  "end_time": 14.155000000000001,
+  "mask_start_token": 322,
+  "mask_end_token": 352,
+  "n_tokens_replaced": 30,
+  "method": "native_infilling_hybrid"
+}

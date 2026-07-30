@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000087",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567940_012_Delegado_Paulo_Bilynskyj_seg0053.wav",
+  "original_transcription": "Essa é outra exigência que faz com que pessoas que possuem, que fizeram um grande investimento, possuem diversos calibres de armas de fogo diferentes, tenham que realizar inúmeras competições durante o ano simplesmente para manter os seus armamentos.",
+  "attack_type": "ANTONYM",
+  "original_words": "manter",
+  "replacement_text": "perder",
+  "reason": "Inverte completamente o sentido da obrigação, sugerindo que as competições causam perda dos armamentos",
+  "start_time": 13.017,
+  "end_time": 13.519,
+  "mask_start_token": 325,
+  "mask_end_token": 337,
+  "n_tokens_replaced": 12,
+  "method": "native_infilling_hybrid"
+}

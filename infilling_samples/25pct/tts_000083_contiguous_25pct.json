@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000083",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0030.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "as duas crianças, uma judia e a outra criança, que era de outra etnia, e ali eles brincavam na cerca,",
+  "total_words": 20,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        11,
+        15
+      ],
+      "original_words": "de outra etnia, e ali",
+      "replacement_text": "de outra etnia, e ali",
+      "start_time": 8.440999999999999,
+      "end_time": 10.946000000000002,
+      "mask_start_token": 211,
+      "mask_end_token": 273,
+      "n_tokens_replaced": 62
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

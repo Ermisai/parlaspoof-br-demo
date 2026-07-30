@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000043",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_206_Bibo_Nunes_seg0000.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Orienta não também, porque no ano passado esta casa aqui reduziu para 8% e agora querem voltar aos 20%. Novamente, pagamos impostos de mais e recebemos de menos.",
+  "total_words": 28,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        19,
+        25
+      ],
+      "original_words": "Novamente, pagamos impostos de mais e recebemos",
+      "replacement_text": "Novamente, pagamos impostos de mais e recebemos",
+      "start_time": 8.071,
+      "end_time": 11.523000000000001,
+      "mask_start_token": 201,
+      "mask_end_token": 288,
+      "n_tokens_replaced": 87
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000085",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567139_010_Benedita_da_Silva_seg0042.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "orçamento, entre outros tantos, e a cultura, que não posso deixar, de temas em que ainda precisamos construir um contexto de igualdade.",
+  "total_words": 22,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        8,
+        12
+      ],
+      "original_words": "não posso deixar, de temas",
+      "replacement_text": "não posso deixar, de temas",
+      "start_time": 3.4320000000000004,
+      "end_time": 6.984,
+      "mask_start_token": 85,
+      "mask_end_token": 174,
+      "n_tokens_replaced": 89
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

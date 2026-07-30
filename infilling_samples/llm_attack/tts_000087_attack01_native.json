@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000087",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567940_012_Delegado_Paulo_Bilynskyj_seg0053.wav",
+  "original_transcription": "Essa é outra exigência que faz com que pessoas que possuem, que fizeram um grande investimento, possuem diversos calibres de armas de fogo diferentes, tenham que realizar inúmeras competições durante o ano simplesmente para manter os seus armamentos.",
+  "attack_type": "NEGATION",
+  "original_words": "que faz com que",
+  "replacement_text": "que não faz com que",
+  "reason": "Nega a relação causal entre exigência e necessidade de competições",
+  "start_time": 1.345,
+  "end_time": 2.548,
+  "mask_start_token": 33,
+  "mask_end_token": 63,
+  "n_tokens_replaced": 30,
+  "method": "native_infilling_hybrid"
+}

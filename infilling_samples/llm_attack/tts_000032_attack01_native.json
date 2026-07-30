@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000032",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567144_086_Adriana_Ventura_seg0011.wav",
+  "original_transcription": "É a barbárie e assusta ver o presidente da república passando a mão em terrorista, passando mão em entidade, financiando entidade com o nosso dinheiro, com os nossos impostos, financiando isso.",
+  "attack_type": "ANTONYM",
+  "original_words": "assusta",
+  "replacement_text": "tranquiliza",
+  "reason": "Inverte completamente a reação emocional descrita, mudando de crítica para aprovação",
+  "start_time": 1.6219999999999999,
+  "end_time": 2.542,
+  "mask_start_token": 40,
+  "mask_end_token": 63,
+  "n_tokens_replaced": 23,
+  "method": "native_infilling_hybrid"
+}

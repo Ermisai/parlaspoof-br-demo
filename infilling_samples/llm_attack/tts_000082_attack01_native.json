@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000082",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0017.wav",
+  "original_transcription": "Mas condena evidentemente este momento do qual não está escrito em lugar nenhum como uma mulher religiosa na minha Bíblia.",
+  "attack_type": "ANTONYM",
+  "original_words": "condena",
+  "replacement_text": "aprova",
+  "reason": "Muda de reprovação para aprovação, alterando drasticamente o sentido",
+  "start_time": 0.422,
+  "end_time": 1.365,
+  "mask_start_token": 10,
+  "mask_end_token": 34,
+  "n_tokens_replaced": 24,
+  "method": "native_infilling_hybrid"
+}

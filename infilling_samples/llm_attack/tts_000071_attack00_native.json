@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000071",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0022.wav",
+  "original_transcription": "a doença é uma causa que excluía a possibilidade, por exemplo, de um relaxamento de prisão ou de uma liberdade provisória em virtude da causa que foi dada pelo próprio advogado quando doente.",
+  "attack_type": "ANTONYM",
+  "original_words": "relaxamento de prisão",
+  "replacement_text": "endurecimento de prisão",
+  "reason": "Muda de benefício penal para agravamento da situação carcerária",
+  "start_time": 5.3420000000000005,
+  "end_time": 6.145,
+  "mask_start_token": 133,
+  "mask_end_token": 153,
+  "n_tokens_replaced": 20,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000029",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Assumo a presidência dessa comissão da Amazônia e dos povos originários e tradicionais com muita alegria e energia, porque sei que não estou começando e sim dando prosseguimento.",
+  "total_words": 28,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        11,
+        17
+      ],
+      "original_words": "e tradicionais com muita alegria e energia,",
+      "replacement_text": "e tradicionais com muita alegria e energia,",
+      "start_time": 4.412,
+      "end_time": 8.342,
+      "mask_start_token": 110,
+      "mask_end_token": 208,
+      "n_tokens_replaced": 98
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

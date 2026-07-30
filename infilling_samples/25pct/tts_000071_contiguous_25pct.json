@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000071",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0022.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "a doença é uma causa que excluía a possibilidade, por exemplo, de um relaxamento de prisão ou de uma liberdade provisória em virtude da causa que foi dada pelo próprio advogado quando doente.",
+  "total_words": 33,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        21,
+        28
+      ],
+      "original_words": "em virtude da causa que foi dada pelo",
+      "replacement_text": "em virtude da causa que foi dada pelo",
+      "start_time": 7.049,
+      "end_time": 8.474,
+      "mask_start_token": 176,
+      "mask_end_token": 211,
+      "n_tokens_replaced": 35
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

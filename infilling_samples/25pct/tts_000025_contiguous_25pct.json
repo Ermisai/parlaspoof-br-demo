@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000025",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0033.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "dar esse prazo aos defensores públicos em razão da doença, de doença, para que possa assistir as pessoas mais pobres, as pessoas menos favorecidas no Brasil. A observação que eu tinha que fazer, muito obrigado pela...",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        26,
+        34
+      ],
+      "original_words": "A observação que eu tinha que fazer, muito obrigado",
+      "replacement_text": "A observação que eu tinha que fazer, muito obrigado",
+      "start_time": 11.216,
+      "end_time": 13.479000000000001,
+      "mask_start_token": 280,
+      "mask_end_token": 336,
+      "n_tokens_replaced": 56
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

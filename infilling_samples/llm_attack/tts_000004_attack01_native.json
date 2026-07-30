@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000004",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567493_029_Beto_Pereira_seg0003.wav",
+  "original_transcription": "os andamentos desta comissão com grande habilidade e eu tenho certeza que nós poderemos ter avanços significativos nas pautas de energia.",
+  "attack_type": "ANTONYM",
+  "original_words": "poderemos ter",
+  "replacement_text": "não poderemos ter",
+  "reason": "Adiciona negação que transforma expectativa positiva em pessimista",
+  "start_time": 6.82,
+  "end_time": 7.5409999999999995,
+  "mask_start_token": 170,
+  "mask_end_token": 188,
+  "n_tokens_replaced": 18,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000021",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0022.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "a doença é uma causa que excluía a possibilidade, por exemplo, de um relaxamento de prisão ou de uma liberdade provisória em virtude da causa que foi dada pelo próprio advogado quando doente.",
+  "total_words": 33,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        1,
+        8
+      ],
+      "original_words": "doença é uma causa que excluía a possibilidade,",
+      "replacement_text": "doença é uma causa que excluía a possibilidade,",
+      "start_time": 0.14200000000000002,
+      "end_time": 3.3539999999999996,
+      "mask_start_token": 3,
+      "mask_end_token": 83,
+      "n_tokens_replaced": 80
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

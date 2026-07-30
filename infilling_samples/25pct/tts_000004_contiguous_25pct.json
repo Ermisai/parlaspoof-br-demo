@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000004",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567493_029_Beto_Pereira_seg0003.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "os andamentos desta comissão com grande habilidade e eu tenho certeza que nós poderemos ter avanços significativos nas pautas de energia.",
+  "total_words": 21,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        1,
+        5
+      ],
+      "original_words": "andamentos desta comissão com grande",
+      "replacement_text": "andamentos desta comissão com grande",
+      "start_time": 0.22200000000000003,
+      "end_time": 2.889,
+      "mask_start_token": 5,
+      "mask_end_token": 72,
+      "n_tokens_replaced": 67
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

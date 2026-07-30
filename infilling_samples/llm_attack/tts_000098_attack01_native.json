@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000098",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567335_042_Caroline_de_Toni_seg0002.wav",
+  "original_transcription": "Quer encaminhar? Orientar? É que como é um projeto de consenso, vou te dar um minuto, deputado, e peço para os demais partidos se posso colocar sim para todos, que é uma matéria de consenso. Então, a liderança do governo para orientar. É que eu acho tão bonito assim o governo.",
+  "attack_type": "ANTONYM",
+  "original_words": "consenso,",
+  "replacement_text": "conflito",
+  "reason": "Muda completamente a natureza do projeto de harmonioso para controverso",
+  "start_time": 3.822,
+  "end_time": 4.503,
+  "mask_start_token": 95,
+  "mask_end_token": 112,
+  "n_tokens_replaced": 17,
+  "method": "native_infilling_hybrid"
+}

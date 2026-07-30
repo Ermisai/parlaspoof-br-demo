@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000057",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0004.wav",
+  "original_transcription": "propague para que nós não possamos aí mais uma vez ter a nossa competência vilipendiada, seja pelo Poder Executivo, seja pelo Poder Legislativo.",
+  "attack_type": "NEGATION",
+  "original_words": "não possamos",
+  "replacement_text": "possamos",
+  "reason": "Remove a negação, invertendo completamente o sentido: de impedir algo negativo para permitir algo positivo",
+  "start_time": 1.446,
+  "end_time": 2.2889999999999997,
+  "mask_start_token": 36,
+  "mask_end_token": 57,
+  "n_tokens_replaced": 21,
+  "method": "native_infilling_hybrid"
+}

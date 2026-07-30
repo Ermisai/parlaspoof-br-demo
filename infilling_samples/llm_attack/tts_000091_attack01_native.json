@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000091",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567645_067_Bibo_Nunes_seg0008.wav",
+  "original_transcription": "Tudo hipotético. Estou falando isto porque, surpreendentemente, eu ouvi um colega, do outro lado, na esquerda, dizendo que Bolsonaro, ao entrar e ficar na embaixada...",
+  "attack_type": "ANTONYM",
+  "original_words": "surpreendentemente,",
+  "replacement_text": "previsivelmente",
+  "reason": "Muda a percepção de surpresa para expectativa, alterando o tom da crítica",
+  "start_time": 2.9850000000000003,
+  "end_time": 4.287,
+  "mask_start_token": 74,
+  "mask_end_token": 107,
+  "n_tokens_replaced": 33,
+  "method": "native_infilling_hybrid"
+}

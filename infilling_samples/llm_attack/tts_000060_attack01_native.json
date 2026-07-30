@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000060",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0007.wav",
+  "original_transcription": "deputado estadual e foi num espaço como esse que liderou o movimento Diretas Jás em todo o Brasil, então eu tenho muito orgulho de como matogrossense homenagear esse cidadão que fez muito por Mato Grosso, fez muito pelo Brasil e hoje tem esse legado que nós devemos lembrar e aqui pedir aos colegas que esse ano de 2024 nós possamos focar naquilo que verdadeiramente nos une que é a melhoria da qualidade de vida",
+  "attack_type": "ANTONYM",
+  "original_words": "liderou",
+  "replacement_text": "combateu",
+  "reason": "Inverte completamente o papel histórico do homenageado no movimento Diretas Já",
+  "start_time": 3.523,
+  "end_time": 4.223,
+  "mask_start_token": 88,
+  "mask_end_token": 105,
+  "n_tokens_replaced": 17,
+  "method": "native_infilling_hybrid"
+}

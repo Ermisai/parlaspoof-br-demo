@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000055",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Abilio_Brunini/567337_096_Abilio_Brunini_seg0006.wav",
+  "original_transcription": "A gente tem conversado o quanto é importante o posicionamento dele e esse posicionamento respeitando todas as opiniões. Ao contrário do que muitos dizem, eu acredito que a sua postura à frente vai surpreender muita gente.",
+  "attack_type": "ANTONYM",
+  "original_words": "importante",
+  "replacement_text": "prejudicial",
+  "reason": "Inverte completamente a avaliação do posicionamento de positiva para negativa",
+  "start_time": 1.944,
+  "end_time": 2.565,
+  "mask_start_token": 48,
+  "mask_end_token": 64,
+  "n_tokens_replaced": 16,
+  "method": "native_infilling_hybrid"
+}

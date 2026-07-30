@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000081",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Famílias inteiras estão sendo assassinadas, crianças, bebês, mulheres, gente inocente, vítimas dos bombardeios na faixa de Gaza.",
+  "total_words": 17,
+  "words_replaced": 4,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        5,
+        8
+      ],
+      "original_words": "crianças, bebês, mulheres, gente",
+      "replacement_text": "crianças, bebês, mulheres, gente",
+      "start_time": 3.212,
+      "end_time": 7.849,
+      "mask_start_token": 80,
+      "mask_end_token": 196,
+      "n_tokens_replaced": 116
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

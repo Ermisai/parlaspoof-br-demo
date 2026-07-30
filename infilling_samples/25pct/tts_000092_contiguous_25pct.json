@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000092",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_131_Bibo_Nunes_seg0057.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Nenhum. Mas estão lançando agora o crime hipotético. Tem a hipótese de cometer um crime e querem punir. Não vamos permitir hipótese alguma. Liberdade de expressão, cinco. Sim, sempre. Viva a liberdade.",
+  "total_words": 32,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        5,
+        12
+      ],
+      "original_words": "o crime hipotético. Tem a hipótese de cometer",
+      "replacement_text": "o crime hipotético. Tem a hipótese de cometer",
+      "start_time": 2.645,
+      "end_time": 5.709,
+      "mask_start_token": 66,
+      "mask_end_token": 142,
+      "n_tokens_replaced": 76
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000004",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567493_029_Beto_Pereira_seg0003.wav",
+  "original_transcription": "os andamentos desta comissão com grande habilidade e eu tenho certeza que nós poderemos ter avanços significativos nas pautas de energia.",
+  "attack_type": "ANTONYM",
+  "original_words": "avanços significativos",
+  "replacement_text": "retrocessos significativos",
+  "reason": "Inverte completamente o sentido positivo para negativo sobre o progresso das pautas",
+  "start_time": 7.8420000000000005,
+  "end_time": 9.266,
+  "mask_start_token": 196,
+  "mask_end_token": 231,
+  "n_tokens_replaced": 35,
+  "method": "native_infilling_hybrid"
+}

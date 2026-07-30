@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000023",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0029.wav",
+  "original_transcription": "para que, eventualmente, a Defensoria Pública pode substituir aquele defensor público num prazo razoável para que ele possa patrocinar a causa das pessoas menos favorecidas.",
+  "attack_type": "ANTONYM",
+  "original_words": "menos favorecidas.",
+  "replacement_text": "mais favorecidas",
+  "reason": "Muda o público-alvo da assistência jurídica para classes privilegiadas",
+  "start_time": 10.013,
+  "end_time": 11.337000000000002,
+  "mask_start_token": 250,
+  "mask_end_token": 281,
+  "n_tokens_replaced": 31,
+  "method": "native_infilling_hybrid"
+}

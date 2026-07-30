@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000063",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/AndrÃ©_Figueiredo/567528_026_AndrÃ©_Figueiredo_seg0009.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Além disso, seria importante criar um órgão, uma rede nacional que coordenasse e integrasse as film commissions existentes no Brasil, promovendo a cooperação, a capacitação, a divulgação e a articulação com os demais agências do setor audiovisual.",
+  "total_words": 37,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        0,
+        8
+      ],
+      "original_words": "Além disso, seria importante criar um órgão, uma rede",
+      "replacement_text": "Além disso, seria importante criar um órgão, uma rede",
+      "start_time": 0.02099999999999999,
+      "end_time": 2.5869999999999997,
+      "mask_start_token": 0,
+      "mask_end_token": 64,
+      "n_tokens_replaced": 64
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000006",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0002.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "deste ano de 2024 e uma sessão que nós temos aí um clima tenso, infelizmente, principalmente entre o Legislativo e o Executivo.",
+  "total_words": 22,
+  "words_replaced": 5,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        13,
+        17
+      ],
+      "original_words": "tenso, infelizmente, principalmente entre o",
+      "replacement_text": "tenso, infelizmente, principalmente entre o",
+      "start_time": 4.8340000000000005,
+      "end_time": 7.943,
+      "mask_start_token": 120,
+      "mask_end_token": 198,
+      "n_tokens_replaced": 78
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

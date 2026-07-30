@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000075",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Defensor_StÃ©lio_Dener/567335_029_Defensor_StÃ©lio_Dener_seg0033.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "dar esse prazo aos defensores públicos em razão da doença, de doença, para que possa assistir as pessoas mais pobres, as pessoas menos favorecidas no Brasil. A observação que eu tinha que fazer, muito obrigado pela...",
+  "total_words": 36,
+  "words_replaced": 9,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        17,
+        25
+      ],
+      "original_words": "pessoas mais pobres, as pessoas menos favorecidas no Brasil.",
+      "replacement_text": "pessoas mais pobres, as pessoas menos favorecidas no Brasil.",
+      "start_time": 7.591,
+      "end_time": 10.996,
+      "mask_start_token": 189,
+      "mask_end_token": 274,
+      "n_tokens_replaced": 85
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

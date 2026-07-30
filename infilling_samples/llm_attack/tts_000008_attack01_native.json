@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000008",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Gisela_Simona/567072_152_Gisela_Simona_seg0005.wav",
+  "original_transcription": "Mas quero aqui também dizer aos colegas, como Mato Grossense aqui, alguns colegas Mato Grossense no plenário,",
+  "attack_type": "NEGATION",
+  "original_words": "quero aqui também dizer aos colegas,",
+  "replacement_text": "não quero aqui também dizer aos colegas",
+  "reason": "Inverte completamente a intenção de comunicação do parlamentar",
+  "start_time": 0.242,
+  "end_time": 2.75,
+  "mask_start_token": 6,
+  "mask_end_token": 68,
+  "n_tokens_replaced": 62,
+  "method": "native_infilling_hybrid"
+}

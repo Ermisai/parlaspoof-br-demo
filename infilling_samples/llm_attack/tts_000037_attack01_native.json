@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000037",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567940_012_Delegado_Paulo_Bilynskyj_seg0053.wav",
+  "original_transcription": "Essa é outra exigência que faz com que pessoas que possuem, que fizeram um grande investimento, possuem diversos calibres de armas de fogo diferentes, tenham que realizar inúmeras competições durante o ano simplesmente para manter os seus armamentos.",
+  "attack_type": "NEGATION",
+  "original_words": "que faz com que pessoas",
+  "replacement_text": "que não faz com que pessoas",
+  "reason": "Nega o impacto da exigência sobre os proprietários de armas",
+  "start_time": 1.345,
+  "end_time": 3.4299999999999997,
+  "mask_start_token": 33,
+  "mask_end_token": 85,
+  "n_tokens_replaced": 52,
+  "method": "native_infilling_hybrid"
+}

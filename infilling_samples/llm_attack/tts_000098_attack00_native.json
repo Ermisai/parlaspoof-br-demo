@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000098",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567335_042_Caroline_de_Toni_seg0002.wav",
+  "original_transcription": "Quer encaminhar? Orientar? É que como é um projeto de consenso, vou te dar um minuto, deputado, e peço para os demais partidos se posso colocar sim para todos, que é uma matéria de consenso. Então, a liderança do governo para orientar. É que eu acho tão bonito assim o governo.",
+  "attack_type": "NEGATION",
+  "original_words": "posso colocar sim para todos,",
+  "replacement_text": "não posso colocar sim para todos",
+  "reason": "Inverte a posição favorável para contrária ao projeto",
+  "start_time": 8.164,
+  "end_time": 9.484,
+  "mask_start_token": 204,
+  "mask_end_token": 237,
+  "n_tokens_replaced": 33,
+  "method": "native_infilling_hybrid"
+}

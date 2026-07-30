@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000050",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Caroline_de_Toni/567466_005_Caroline_de_Toni_seg0006.wav",
+  "original_transcription": "Não, ele estava na pauta da semana passada, foi feita uma obstrução, eu retirei de pauta, fazer um gesto para parar a obstrução, e o deputado Kim fez um pedido extra-pauta, por isso que a gente está analisando como primeiro item. Perfeito, está entendido. Muito obrigado, presidente.",
+  "attack_type": "NEGATION",
+  "original_words": "Não, ele estava na pauta",
+  "replacement_text": "Sim, ele estava na pauta",
+  "reason": "Muda completamente a confirmação inicial sobre o status do item",
+  "start_time": 0.081,
+  "end_time": 1.4020000000000001,
+  "mask_start_token": 2,
+  "mask_end_token": 35,
+  "n_tokens_replaced": 33,
+  "method": "native_infilling_hybrid"
+}

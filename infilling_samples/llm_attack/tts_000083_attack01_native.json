@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000083",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567135_105_Benedita_da_Silva_seg0030.wav",
+  "original_transcription": "as duas crianças, uma judia e a outra criança, que era de outra etnia, e ali eles brincavam na cerca,",
+  "attack_type": "NEGATION",
+  "original_words": "ali eles brincavam",
+  "replacement_text": "ali eles não brincavam",
+  "reason": "Adiciona negação que inverte o sentido de convivência pacífica para separação",
+  "start_time": 10.364999999999998,
+  "end_time": 12.329,
+  "mask_start_token": 259,
+  "mask_end_token": 308,
+  "n_tokens_replaced": 49,
+  "method": "native_infilling_hybrid"
+}

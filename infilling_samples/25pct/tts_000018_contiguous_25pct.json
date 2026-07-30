@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000018",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Erika_Kokay/567340_060_Erika_Kokay_seg0008.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "o reposicionamento da empresa no mercado, a formação de capital inicial ou de giro e a própria manutenção de suas condições de sobrevivência nos primeiros meses de constituição da nova sociedade.",
+  "total_words": 31,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        7,
+        13
+      ],
+      "original_words": "formação de capital inicial ou de giro",
+      "replacement_text": "formação de capital inicial ou de giro",
+      "start_time": 4.591,
+      "end_time": 6.917,
+      "mask_start_token": 114,
+      "mask_end_token": 172,
+      "n_tokens_replaced": 58
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000079",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Dilvanda_Faro/567307_019_Dilvanda_Faro_seg0005.wav",
+  "original_transcription": "Assumo a presidência dessa comissão da Amazônia e dos povos originários e tradicionais com muita alegria e energia, porque sei que não estou começando e sim dando prosseguimento.",
+  "attack_type": "ANTONYM",
+  "original_words": "alegria",
+  "replacement_text": "preocupação",
+  "reason": "Muda completamente o tom emocional do discurso, de positivo para negativo",
+  "start_time": 6.899,
+  "end_time": 7.52,
+  "mask_start_token": 172,
+  "mask_end_token": 188,
+  "n_tokens_replaced": 16,
+  "method": "native_infilling_hybrid"
+}

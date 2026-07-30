@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000084",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Benedita_da_Silva/567139_010_Benedita_da_Silva_seg0019.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Leda, eu quero também te cumprimentar, primeiro pelos momentos maravilhosos, como você é presidenta da Comissão das Mulheres. O que foi dito a seu respeito, eu...",
+  "total_words": 26,
+  "words_replaced": 6,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        15,
+        20
+      ],
+      "original_words": "Comissão das Mulheres. O que foi",
+      "replacement_text": "Comissão das Mulheres. O que foi",
+      "start_time": 9.043999999999999,
+      "end_time": 11.350000000000001,
+      "mask_start_token": 226,
+      "mask_end_token": 283,
+      "n_tokens_replaced": 57
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

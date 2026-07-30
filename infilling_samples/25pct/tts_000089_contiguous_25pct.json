@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000089",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567951_124_Delegado_Paulo_Bilynskyj_seg0029.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "A iniciativa das leis complementares e ordinárias cabe a qualquer membro ou comissão da Câmara dos Deputados, do Senado Federal ou do Congresso Nacional, ao Presidente da República, ao Supremo Tribunal Federal, aos Tribunais Superiores.",
+  "total_words": 35,
+  "words_replaced": 8,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        20,
+        27
+      ],
+      "original_words": "ou do Congresso Nacional, ao Presidente da República,",
+      "replacement_text": "ou do Congresso Nacional, ao Presidente da República,",
+      "start_time": 8.096,
+      "end_time": 11.042000000000002,
+      "mask_start_token": 202,
+      "mask_end_token": 276,
+      "n_tokens_replaced": 74
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

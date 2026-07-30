@@ -1,0 +1,26 @@
+{
+  "pair_id": "tts_000038",
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Delegado_Paulo_Bilynskyj/567951_124_Delegado_Paulo_Bilynskyj_seg0005.wav",
+  "strategy": "contiguous",
+  "percentage": 0.25,
+  "original_transcription": "Também não podemos esquecer a caça de espécies exóticas invasoras que sejam nocivas à fauna regional e também ao desenvolvimento sustentável e econômico de nossa agricultura e pecuária.",
+  "total_words": 28,
+  "words_replaced": 7,
+  "replaced_segments": [
+    {
+      "word_indices": [
+        19,
+        25
+      ],
+      "original_words": "desenvolvimento sustentável e econômico de nossa agricultura",
+      "replacement_text": "desenvolvimento sustentável e econômico de nossa agricultura",
+      "start_time": 9.75,
+      "end_time": 13.882000000000001,
+      "mask_start_token": 243,
+      "mask_end_token": 347,
+      "n_tokens_replaced": 104
+    }
+  ],
+  "n_segments_replaced": 1,
+  "method": "native_infilling_hybrid"
+}

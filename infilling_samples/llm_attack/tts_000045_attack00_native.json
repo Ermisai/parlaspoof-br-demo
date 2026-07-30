@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000045",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Bibo_Nunes/567785_332_Bibo_Nunes_seg0000.wav",
+  "original_transcription": "do turismo, porque sempre numa eleição municipal, estadual ou nacional, o que menos se dá importância é para o turismo. Eu uso esse momento aqui para chamar a atenção da importância do turismo.",
+  "attack_type": "NEGATION",
+  "original_words": "chamar a atenção da importância",
+  "replacement_text": "não chamar a atenção da importância",
+  "reason": "Contradiz o objetivo declarado do discurso, sugerindo desinteresse pelo setor",
+  "start_time": 11.415,
+  "end_time": 13.16,
+  "mask_start_token": 285,
+  "mask_end_token": 329,
+  "n_tokens_replaced": 44,
+  "method": "native_infilling_hybrid"
+}

@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000002",
+  "attack_index": 1,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Beto_Pereira/567172_123_Beto_Pereira_seg0033.wav",
+  "original_transcription": "E se estamos diante de uma crise financeira e de produtividade no campo, diretamente também podemos antever no horizonte uma crise econômica no Estado com reflexo nacional.",
+  "attack_type": "NEGATION",
+  "original_words": "E se estamos diante de uma crise financeira",
+  "replacement_text": "E se não estamos diante de uma crise financeira",
+  "reason": "Nega completamente a existência da crise, invertendo o diagnóstico político",
+  "start_time": 0.02099999999999999,
+  "end_time": 3.252,
+  "mask_start_token": 0,
+  "mask_end_token": 81,
+  "n_tokens_replaced": 81,
+  "method": "native_infilling_hybrid"
+}

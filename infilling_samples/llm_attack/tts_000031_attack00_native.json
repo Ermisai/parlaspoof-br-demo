@@ -1,0 +1,16 @@
+{
+  "pair_id": "tts_000031",
+  "attack_index": 0,
+  "source_audio": "/raid/aluno_lucasgris/Datasets/Camara/deepfake_analysis/samples/real/Adriana_Ventura/567135_238_Adriana_Ventura_seg0010.wav",
+  "original_transcription": "Ele aprimorou o projeto, colocou outros procedimentos, mas o objetivo é claro, é dar transparência para aquelas pessoas que aguardam uma cirurgia letiva, saibam qual é o tamanho da fila.",
+  "attack_type": "ANTONYM",
+  "original_words": "dar transparência",
+  "replacement_text": "ocultar informações",
+  "reason": "Transforma o objetivo de transparência em seu oposto, sugerindo má-fé",
+  "start_time": 7.058,
+  "end_time": 8.261000000000001,
+  "mask_start_token": 176,
+  "mask_end_token": 206,
+  "n_tokens_replaced": 30,
+  "method": "native_infilling_hybrid"
+}
