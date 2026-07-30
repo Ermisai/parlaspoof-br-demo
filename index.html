@@ -379,7 +379,7 @@
         <div class="container">
             <h1>ParlaSpoof-BR</h1>
             <p>Audio Deepfake Detection Benchmark for Brazilian Political Speech</p>
-            <span class="badge">126,115 samples | 40 speakers | 5 regions</span>
+            <span class="badge">134,400 samples | 40 speakers | 5 regions</span>
         </div>
     </header>
 
@@ -390,20 +390,16 @@
 
             <div class="stats-grid">
                 <div class="stat-card">
-                    <div class="number">126,115</div>
+                    <div class="number">134,400</div>
                     <div class="label">Total Samples</div>
+                </div>
+                <div class="stat-card">
+                    <div class="number">30,000</div>
+                    <div class="label">Core Evaluation Set</div>
                 </div>
                 <div class="stat-card">
                     <div class="number">40</div>
                     <div class="label">Speakers</div>
-                </div>
-                <div class="stat-card">
-                    <div class="number">5</div>
-                    <div class="label">TTS Models</div>
-                </div>
-                <div class="stat-card">
-                    <div class="number">5</div>
-                    <div class="label">VC Models</div>
                 </div>
                 <div class="stat-card">
                     <div class="number">5</div>
@@ -414,65 +410,48 @@
             <table class="methods-table">
                 <thead>
                     <tr>
-                        <th>Category</th>
-                        <th>Methods</th>
-                        <th>Samples</th>
+                        <th>Label</th>
+                        <th>Subset</th>
+                        <th>Files</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><strong>Bona Fide</strong></td>
+                        <td rowspan="3"><strong>Bona Fide</strong></td>
                         <td>Original Chamber recordings</td>
-                        <td>11,248</td>
+                        <td>2,000</td>
                     </tr>
                     <tr>
-                        <td><strong>Text-to-Speech</strong></td>
-                        <td>OmniVoice, XTTS-v2, Chatterbox, VoxCPM2, Qwen3-TTS</td>
+                        <td>Enhanced (Resemble Enhance, Demucs, MetricGAN+)</td>
+                        <td>6,000</td>
+                    </tr>
+                    <tr>
+                        <td>MP3/OGG → WAV variants</td>
+                        <td>3,200</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="5"><strong>Spoof</strong></td>
+                        <td>TTS: OmniVoice, XTTS-v2, Chatterbox, VoxCPM2, Qwen3-TTS</td>
                         <td>10,000</td>
                     </tr>
                     <tr>
-                        <td><strong>Voice Conversion</strong></td>
-                        <td>Seed-VC, kNN-VC, OpenVoice-v2, XVC, EzVC</td>
+                        <td>Voice Conversion: Seed-VC, kNN-VC, OpenVoice-v2, XVC, EzVC</td>
                         <td>10,000</td>
                     </tr>
                     <tr>
-                        <td><strong>Speech Infilling</strong></td>
-                        <td>OmniVoice masked infilling (25%, 50%, 75%, LLM Attack)</td>
+                        <td>OmniVoice speech infilling (25%, 50%, 75%, LLM Attack)</td>
                         <td>8,000</td>
                     </tr>
                     <tr>
-                        <td><strong>Robustness Variants</strong></td>
-                        <td>Babble noise (10/15/20 dB), Codec (MP3/OGG), Enhancement</td>
-                        <td>~87,000</td>
+                        <td>Babble noise: three SNR levels (10/15/20 dB)</td>
+                        <td>60,000</td>
+                    </tr>
+                    <tr>
+                        <td>MP3/OGG → WAV variants</td>
+                        <td>35,200</td>
                     </tr>
                 </tbody>
             </table>
-
-            <!-- Additional Statistics -->
-            <div class="audio-section" style="margin-top: 30px;">
-                <h3>Dataset Statistics</h3>
-                <div class="stats-grid" style="margin-top: 20px;">
-                    <div class="stat-card">
-                        <div class="number" style="font-size: 1.8rem;">479.6h</div>
-                        <div class="label">Total Audio Duration</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="number" style="font-size: 1.8rem;">2,000</div>
-                        <div class="label">Unique Utterances</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="number" style="font-size: 1.8rem;">30</div>
-                        <div class="label">Experimental Conditions</div>
-                    </div>
-                    <div class="stat-card">
-                        <div class="number" style="font-size: 1.8rem;">14</div>
-                        <div class="label">Generator Models</div>
-                    </div>
-                </div>
-                <p style="margin-top: 20px; color: var(--text-light); font-size: 0.9rem;">
-                    <strong>Demographics:</strong> 50.2% male / 49.8% female speakers, balanced across 5 Brazilian regions (Southeast 27%, South 20%, Northeast 20%, North 17%, Center-West 16%). Average duration: 13.7s per sample.
-                </p>
-            </div>
         </div>
     </section>
 
